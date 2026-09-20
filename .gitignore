@@ -1,0 +1,6 @@
+.DS_Store
+.omc/
+node_modules/
+CV*.pdf
+reference.txt
+.claude/
