@@ -210,21 +210,9 @@ function buildHome() {
     ${isEmpty(pr.tags) ? '' : `<div class="tags">${pr.tags.map((t) => `<span class="tag tag--plain">${esc(t)}</span>`).join('')}</div>`}
   </article>`;
 
-  // Show the three most recent projects up front; the rest fold away.
-  const shown = (data.projects || []).slice(0, 3);
-  const rest = (data.projects || []).slice(3);
   const projects = isEmpty(data.projects)
     ? ''
-    : section(
-        'projects',
-        'Selected Projects',
-        shown.map(projectCard).join('\n') +
-          (rest.length
-            ? `<details class="more"><summary>Show ${rest.length} earlier projects</summary><div style="margin-top:14px">${rest
-                .map(projectCard)
-                .join('\n')}</div></details>`
-            : '')
-      );
+    : section('projects', 'Selected Projects', (data.projects || []).map(projectCard).join('\n'));
 
   const skills = isEmpty(data.skills)
     ? ''
@@ -257,7 +245,7 @@ function buildHome() {
   const more = section(
     'more',
     'More',
-    `<div class="row"><div class="row-title"><a href="publications.html">Publications, patents &amp; service →</a></div>
+    `<div class="row"><div class="row-title"><a href="publications.html">Publications, patents &amp; software copyrights →</a></div>
      <div class="row-meta">${(data.publications || []).reduce((a, g) => a + g.items.length, 0)} papers · ${(data.patents || []).length} patents · ${(data.software_copyrights || []).length} software copyrights</div></div>
      <div class="row"><div class="row-title"><a href="${esc(p.cv)}">Full CV (PDF) →</a></div><div class="row-meta">Complete record of projects, publications, and activities</div></div>`
   );
@@ -391,11 +379,11 @@ function buildPublications() {
     : section(
         'conferences',
         'Conferences Attended',
-        `<details class="more" open><summary>${data.conferences_attended.length} conferences</summary><div style="margin-top:10px">${data.conferences_attended
+        data.conferences_attended
           .map(
             (c) => `<div class="row"><div class="row-title">${esc(c.name)}</div><div class="row-meta">${esc(c.place)} · ${esc(c.date)}</div></div>`
           )
-          .join('\n')}</div></details>`
+          .join('\n')
       );
 
   return [

@@ -5,7 +5,6 @@
     "url": "https://run-kyle.github.io",
     "lang": "en"
   },
-
   "profile": {
     "name": "Hyeon Jun Lim",
     "name_local": "임현준",
@@ -28,41 +27,85 @@
       "Robust Control & State Estimation"
     ],
     "links": [
-      { "label": "Email",          "icon": "mail",     "url": "mailto:kyle13@yonsei.ac.kr" },
-      { "label": "Google Scholar", "icon": "scholar",  "url": "https://scholar.google.com/citations?user=REPLACE_ME" },
-      { "label": "GitHub",         "icon": "github",   "url": "https://github.com/run-kyle" },
-      { "label": "LinkedIn",       "icon": "linkedin", "url": "https://www.linkedin.com/in/REPLACE_ME" },
-      { "label": "CV",             "icon": "file",     "url": "assets/files/cv.pdf" }
+      {
+        "label": "Email",
+        "icon": "mail",
+        "url": "mailto:kyle13@yonsei.ac.kr"
+      },
+      {
+        "label": "Google Scholar",
+        "icon": "scholar",
+        "url": "https://scholar.google.com/citations?user=REPLACE_ME"
+      },
+      {
+        "label": "GitHub",
+        "icon": "github",
+        "url": "https://github.com/run-kyle"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/REPLACE_ME"
+      },
+      {
+        "label": "CV",
+        "icon": "file",
+        "url": "assets/files/cv.pdf"
+      }
     ]
   },
-
   "news": [
-    { "date": "Dec 2025", "text": "Attended <strong>NeurIPS 2025</strong> in San Diego, USA." },
-    { "date": "Dec 2025", "text": "Served as a reviewer for <em>Journal of Electrical Engineering &amp; Technology</em> (JEET, IF 1.6)." },
-    { "date": "Aug 2025", "text": "Started a new project on a <strong>unified closed-loop simulation framework</strong> for RL-based autonomous driving." },
-    { "date": "Jul 2025", "text": "Filed a patent on AI- and multi-sensor-based object detection data processing (KR / US / CN)." },
-    { "date": "Apr 2025", "text": "Filed three patents on vehicle control and adaptive 3D sensor calibration (KR / US / DE / CN)." },
-    { "date": "Jan 2025", "text": "Promoted to <strong>Senior Research Engineer</strong> at Hyundai Motor Company." }
+    {
+      "date": "Dec 2025",
+      "text": "Attended <strong>NeurIPS 2025</strong> in San Diego, USA."
+    },
+    {
+      "date": "Dec 2025",
+      "text": "Served as a reviewer for <em>Journal of Electrical Engineering &amp; Technology</em> (JEET, IF 1.6)."
+    },
+    {
+      "date": "Aug 2025",
+      "text": "Started a new project on a <strong>unified closed-loop simulation framework</strong> for RL-based autonomous driving."
+    },
+    {
+      "date": "Jul 2025",
+      "text": "Filed a patent on AI- and multi-sensor-based object detection data processing (KR / US / CN)."
+    },
+    {
+      "date": "Apr 2025",
+      "text": "Filed three patents on vehicle control and adaptive 3D sensor calibration (KR / US / DE / CN)."
+    },
+    {
+      "date": "Jan 2025",
+      "text": "Promoted to <strong>Senior Research Engineer</strong> at Hyundai Motor Company."
+    }
   ],
-
   "experience": [
     {
       "org": "Hyundai Motor Company",
       "location": "Seoul, South Korea",
       "roles": [
-        { "title": "Senior Research Engineer, Autonomous Driving Development", "period": "Jan 2025 – Present" },
-        { "title": "Research Engineer, Autonomous Driving Development",        "period": "Mar 2022 – Dec 2024" }
+        {
+          "title": "Senior Research Engineer, Autonomous Driving Development",
+          "period": "Jan 2025 – Present"
+        },
+        {
+          "title": "Research Engineer, Autonomous Driving Development",
+          "period": "Mar 2022 – Dec 2024"
+        }
       ]
     },
     {
       "org": "Korea Institute of Industrial Technology (KITECH)",
       "location": "Ansan, South Korea",
       "roles": [
-        { "title": "Researcher, Robotics R&BD Group", "period": "Jun 2018 – Jun 2021" }
+        {
+          "title": "Researcher, Robotics R&BD Group",
+          "period": "Jun 2018 – Jun 2021"
+        }
       ]
     }
   ],
-
   "education": [
     {
       "degree": "M.S. in Electrical and Electronic Engineering",
@@ -70,8 +113,7 @@
       "location": "Seoul, South Korea",
       "period": "Feb 2018",
       "notes": [
-        "Thesis: \"State Estimation using Sampled-data Fuzzy Observer and its Application to AHRS\"",
-        "BK21 Plus Scholarship, National Research Foundation of Korea (NRF)"
+        "Thesis: \"State Estimation using Sampled-data Fuzzy Observer and its Application to AHRS\""
       ]
     },
     {
@@ -84,14 +126,18 @@
       ]
     }
   ],
-
   "projects": [
     {
       "title": "Unified Closed-Loop Simulation Framework for RL-Based Autonomous Driving",
       "period": "Aug 2025 – Present",
       "org": "Hyundai Motor Company",
       "image": "",
-      "tags": ["Reinforcement Learning", "3DGS", "World Model", "Sim-to-Real"],
+      "tags": [
+        "Reinforcement Learning",
+        "3DGS",
+        "World Model",
+        "Sim-to-Real"
+      ],
       "highlights": [
         "Architected a high-fidelity closed-loop simulation stack combining 3DGS-based photorealistic environments, rule-driven reward modeling, and World-Model-powered synthetic data generation for reactive long-tail scenario evaluation.",
         "Optimized and validated real-world driving policies by integrating online/offline RL, designing specialized transfer layers, and deploying agents on physical vehicles — with major gains in success rate, safety, and collision avoidance."
@@ -102,7 +148,11 @@
       "period": "Jul 2024 – Mar 2026",
       "org": "Hyundai Motor Company",
       "image": "",
-      "tags": ["Transformer", "E2E Planning", "Embedded Deployment"],
+      "tags": [
+        "Transformer",
+        "E2E Planning",
+        "Embedded Deployment"
+      ],
       "highlights": [
         "Led end-to-end driving software development, embedded deployment, and real-world validation of a Transformer-based planner, including the first-ever on-vehicle control with the system.",
         "Built a unified training/inference framework, closed-loop evaluation with high-fidelity synthetic data, and custom real-time visualization and debugging tools used across diverse real-vehicle tests."
@@ -113,7 +163,13 @@
       "period": "Mar 2022 – Jun 2024",
       "org": "Hyundai Motor Company",
       "image": "",
-      "tags": ["LiDAR Perception", "CUDA", "Calibration", "Genesis G90", "Kia EV9"],
+      "tags": [
+        "LiDAR Perception",
+        "CUDA",
+        "Calibration",
+        "Genesis G90",
+        "Kia EV9"
+      ],
       "highlights": [
         "Led architecture, development, and deployment of the company's LiDAR perception stack, and established the first systematic sensor-evaluation framework benchmarking 10+ vendors.",
         "Developed core parsing, filtering, fault-detection, clustering, localization, and calibration technologies including online optical-flow calibration, with CUDA-optimized embedded performance.",
@@ -125,7 +181,11 @@
       "period": "Jun 2019 – Jun 2021",
       "org": "KITECH",
       "image": "",
-      "tags": ["LiDAR Simulation", "Bathymetry", "Embedded Systems"],
+      "tags": [
+        "LiDAR Simulation",
+        "Bathymetry",
+        "Embedded Systems"
+      ],
       "highlights": [
         "Developed a high-fidelity LiDAR simulation and analysis framework to derive optimal hardware specifications and validate dual-wavelength bathymetric sensing performance.",
         "Translated point-cloud-based error modeling into actionable embedded-system requirements for high-accuracy river and subsurface mapping."
@@ -136,7 +196,12 @@
       "period": "Jun 2018 – May 2020",
       "org": "KITECH",
       "image": "",
-      "tags": ["Dataset", "128-ch LiDAR", "HD Mapping", "Auto-Annotation"],
+      "tags": [
+        "Dataset",
+        "128-ch LiDAR",
+        "HD Mapping",
+        "Auto-Annotation"
+      ],
       "highlights": [
         "Built South Korea's first large-scale, high-precision LiDAR dataset for autonomous driving — a million-label 128-channel corpus with automated annotation (90% time reduction) and long-tail extreme-condition captures.",
         "Delivered cm-level HD mapping with custom tooling (LAS converter, point-wise sync, SOR filtering, rolling-shutter correction) and a full-stack calibrated sensor-logging platform.",
@@ -148,136 +213,268 @@
       "period": "Jan 2019 – Dec 2020",
       "org": "KITECH",
       "image": "",
-      "tags": ["Multi-LiDAR", "Point Cloud", "TI Embedded"],
+      "tags": [
+        "Multi-LiDAR",
+        "Point Cloud",
+        "TI Embedded"
+      ],
       "highlights": [
         "Developed a fast, sub-2 cm-accuracy 3D vehicle-profiling system for unmanned car-wash automation, integrating custom multi-LiDAR sensing and fused point-cloud reconstruction.",
         "Delivered real-time TI-embedded processing for reliable geometry extraction and collision-free operation."
       ]
-    },
-    {
-      "title": "Vision-IMU Integrated Indoor Navigation for the Visually Impaired",
-      "period": "Oct 2016 – Sep 2017",
-      "org": "Yonsei University",
-      "image": "",
-      "tags": ["Sensor Fusion", "Machine Learning", "A* Routing"],
-      "highlights": [
-        "Built an indoor localization system combining CCTV-based ML positioning with smartphone IMU dead-reckoning for continuous tracking even when cameras lose sight of the user.",
-        "Designed the full navigation pipeline — control server, mobile app, and custom mapping tool — with an A*-based safety-aware routing algorithm for real-time path guidance."
-      ]
     }
   ],
-
   "publications": [
     {
       "group": "Journal Articles",
       "items": [
-        { "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*", "title": "Relaxed Stabilization Conditions for Discrete T-S Fuzzy Models under Imperfect Premise Matching", "venue": "Journal of Korean Institute of Intelligent Systems (KCI, IF 0.47)", "year": "2017", "url": "" },
-        { "authors": "Hyeon Jun Lim, Seung Ho Baeg*", "title": "Calibration Technique between 2D LiDAR Sensor and Linear Encoder using Dihedral Angle", "venue": "Journal of Information and Control (KCI)", "year": "2020", "url": "" },
-        { "authors": "Hyeon Jun Lim, Chang Gil Lee, Jin Bae Park, and Young Hoon Joo*", "title": "Design of Output-feedback Controller for Discrete T-S Fuzzy Models under Imperfect Premise Matching", "venue": "Journal of Information and Control (KCI)", "year": "2016", "url": "" }
+        {
+          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "title": "Relaxed Stabilization Conditions for Discrete T-S Fuzzy Models under Imperfect Premise Matching",
+          "venue": "Journal of Korean Institute of Intelligent Systems (KCI, IF 0.47)",
+          "year": "2017",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Seung Ho Baeg*",
+          "title": "Calibration Technique between 2D LiDAR Sensor and Linear Encoder using Dihedral Angle",
+          "venue": "Journal of Information and Control (KCI)",
+          "year": "2020",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Chang Gil Lee, Jin Bae Park, and Young Hoon Joo*",
+          "title": "Design of Output-feedback Controller for Discrete T-S Fuzzy Models under Imperfect Premise Matching",
+          "venue": "Journal of Information and Control (KCI)",
+          "year": "2016",
+          "url": ""
+        }
       ]
     },
     {
       "group": "International Conferences",
       "items": [
-        { "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*", "title": "Fuzzy Observer Design and Its Experimental Validation Using the Fuzzy Lyapunov Function", "venue": "17th International Conference on Control, Automation and Systems (ICCAS)", "year": "2017", "url": "" },
-        { "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*", "title": "Fuzzy Lyapunov Function-based H∞ Fuzzy Filter Design for Sampled-data Systems under Imperfect Premise Matching", "venue": "SICE Annual Conference", "year": "2017", "url": "" },
-        { "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*", "title": "The Stabilization Condition of Continuous Affine Fuzzy Systems under Imperfect Premise Matching", "venue": "International Conference on Control, Automation and Systems (ICCAS)", "year": "2016", "url": "" },
-        { "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*", "title": "The Fuzzy Lyapunov Function-based Relaxed Stabilization of Output-feedback Fuzzy Control Systems under Imperfect Premise Matching", "venue": "International Conference on Fuzzy Theory and Its Applications (iFuzzy)", "year": "2016", "url": "" }
+        {
+          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "title": "Fuzzy Observer Design and Its Experimental Validation Using the Fuzzy Lyapunov Function",
+          "venue": "17th International Conference on Control, Automation and Systems (ICCAS)",
+          "year": "2017",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "title": "Fuzzy Lyapunov Function-based H∞ Fuzzy Filter Design for Sampled-data Systems under Imperfect Premise Matching",
+          "venue": "SICE Annual Conference",
+          "year": "2017",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "title": "The Stabilization Condition of Continuous Affine Fuzzy Systems under Imperfect Premise Matching",
+          "venue": "International Conference on Control, Automation and Systems (ICCAS)",
+          "year": "2016",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "title": "The Fuzzy Lyapunov Function-based Relaxed Stabilization of Output-feedback Fuzzy Control Systems under Imperfect Premise Matching",
+          "venue": "International Conference on Fuzzy Theory and Its Applications (iFuzzy)",
+          "year": "2016",
+          "url": ""
+        }
       ]
     },
     {
       "group": "Domestic Conferences",
       "items": [
-        { "authors": "Hyeon Jun Lim, Seung Ho Baeg*", "title": "Improving Global Mapping Accuracy of Point Cloud Data using SOR Filter", "venue": "16th Korea Robotics Society Annual Conference (KRoC)", "year": "2021", "url": "" },
-        { "authors": "Hyeon Jun Lim, Seung Ho Baeg*", "title": "Time Compensation Technique of Scanning LiDAR Sensor using Hermite Interpolation", "venue": "KIIS Autumn Conference", "year": "2020", "url": "" },
-        { "authors": "Hyeon Jun Lim, Seung Ho Baeg, Jae Hak Kim, Jae Sung Jeong, and Chang Seong Kim", "title": "Analysis of Design Parameters and Performance Simulation of LiDAR Sensors for River Measurement", "venue": "KSCE Convention", "year": "2020", "url": "" },
-        { "authors": "Seung Ho Baeg, Beom Jin Hong, Su Hyun Na, and Hyeon Jun Lim", "title": "Korean Dataset Construction System for Autonomous Driving Technology Development", "venue": "KSAE Annual Conference", "year": "2018", "url": "" },
-        { "authors": "Hyeon Jun Lim, Jin Bae Park, Taek Kyu Song, and Young Hoon Joo*", "title": "Relaxed Stabilization Conditions for Affine T-S Fuzzy Systems Using Extended Fuzzy Lyapunov Function: Guaranteed Cost Approach", "venue": "KIEE Summer Conference", "year": "2017", "url": "" },
-        { "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*", "title": "Design of Relaxed Output-feedback Controller for T-S Fuzzy Models under Imperfect Premise Matching", "venue": "ICROS Annual Conference", "year": "2017", "url": "" },
-        { "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*", "title": "Design of Output-feedback Controller for T-S Fuzzy Models using Fuzzy Lyapunov Function: Guaranteed Cost Approach", "venue": "KISS Spring Conference", "year": "2017", "url": "" },
-        { "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*", "title": "Relaxed Stabilization Conditions for Discrete T-S Fuzzy Models under Imperfect Premise Matching", "venue": "KIIS Autumn Conference", "year": "2016", "url": "" },
-        { "authors": "Hyeon Jun Lim, Han Sol Kim, Jin Bae Park, Myoung Hwan Tak, and Young Hoon Joo*", "title": "Stabilization of T-S Fuzzy Systems Using Line-integral Fuzzy Lyapunov Function", "venue": "KISS Spring Conference", "year": "2016", "url": "" }
+        {
+          "authors": "Hyeon Jun Lim, Seung Ho Baeg*",
+          "title": "Improving Global Mapping Accuracy of Point Cloud Data using SOR Filter",
+          "venue": "16th Korea Robotics Society Annual Conference (KRoC)",
+          "year": "2021",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Seung Ho Baeg*",
+          "title": "Time Compensation Technique of Scanning LiDAR Sensor using Hermite Interpolation",
+          "venue": "KIIS Autumn Conference",
+          "year": "2020",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Seung Ho Baeg, Jae Hak Kim, Jae Sung Jeong, and Chang Seong Kim",
+          "title": "Analysis of Design Parameters and Performance Simulation of LiDAR Sensors for River Measurement",
+          "venue": "KSCE Convention",
+          "year": "2020",
+          "url": ""
+        },
+        {
+          "authors": "Seung Ho Baeg, Beom Jin Hong, Su Hyun Na, and Hyeon Jun Lim",
+          "title": "Korean Dataset Construction System for Autonomous Driving Technology Development",
+          "venue": "KSAE Annual Conference",
+          "year": "2018",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Jin Bae Park, Taek Kyu Song, and Young Hoon Joo*",
+          "title": "Relaxed Stabilization Conditions for Affine T-S Fuzzy Systems Using Extended Fuzzy Lyapunov Function: Guaranteed Cost Approach",
+          "venue": "KIEE Summer Conference",
+          "year": "2017",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "title": "Design of Relaxed Output-feedback Controller for T-S Fuzzy Models under Imperfect Premise Matching",
+          "venue": "ICROS Annual Conference",
+          "year": "2017",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "title": "Design of Output-feedback Controller for T-S Fuzzy Models using Fuzzy Lyapunov Function: Guaranteed Cost Approach",
+          "venue": "KISS Spring Conference",
+          "year": "2017",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "title": "Relaxed Stabilization Conditions for Discrete T-S Fuzzy Models under Imperfect Premise Matching",
+          "venue": "KIIS Autumn Conference",
+          "year": "2016",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Han Sol Kim, Jin Bae Park, Myoung Hwan Tak, and Young Hoon Joo*",
+          "title": "Stabilization of T-S Fuzzy Systems Using Line-integral Fuzzy Lyapunov Function",
+          "venue": "KISS Spring Conference",
+          "year": "2016",
+          "url": ""
+        }
       ]
     }
   ],
-
   "patents": [
-    { "title": "Apparatus For Controlling Vehicle and Method Thereof", "id": "KR 10-2025-0044855", "date": "Apr 7, 2025", "status": "Application", "also": "US 19/391,095 · DE 102025146420.0 · CN 202511797806.2" },
-    { "title": "System and Method For Adaptive Calibration For Autonomous Driving", "id": "KR 10-2025-0042965", "date": "Apr 2, 2025", "status": "Application", "also": "US 19/409,994 · CN 202511849891.2" },
-    { "title": "System and Method For Calibrating 3D Sensor Coordinate Based On Scene Flow Network", "id": "KR 10-2025-0042966", "date": "Apr 2, 2025", "status": "Application", "also": "US 19/406,040 · CN 202511849897.X" },
-    { "title": "System For Processing Data Required For Object Detection Based On Artificial Intelligence and Multiple Autonomous Driving Sensors and Method Implementing The Same", "id": "KR 10-2025-0090242", "date": "Jul 4, 2025", "status": "Application", "also": "US 19/415,494 · CN 202511840140.4" },
-    { "title": "3D shape data acquisition method for automatic car wash equipment and vehicle shape data acquisition system", "id": "KR 10-2504548-B1", "date": "2023", "status": "Registered", "also": "" }
+    {
+      "title": "Apparatus For Controlling Vehicle and Method Thereof",
+      "id": "KR 10-2025-0044855",
+      "date": "Apr 7, 2025",
+      "status": "Application",
+      "also": "US 19/391,095 · DE 102025146420.0 · CN 202511797806.2"
+    },
+    {
+      "title": "System and Method For Adaptive Calibration For Autonomous Driving",
+      "id": "KR 10-2025-0042965",
+      "date": "Apr 2, 2025",
+      "status": "Application",
+      "also": "US 19/409,994 · CN 202511849891.2"
+    },
+    {
+      "title": "System and Method For Calibrating 3D Sensor Coordinate Based On Scene Flow Network",
+      "id": "KR 10-2025-0042966",
+      "date": "Apr 2, 2025",
+      "status": "Application",
+      "also": "US 19/406,040 · CN 202511849897.X"
+    },
+    {
+      "title": "System For Processing Data Required For Object Detection Based On Artificial Intelligence and Multiple Autonomous Driving Sensors and Method Implementing The Same",
+      "id": "KR 10-2025-0090242",
+      "date": "Jul 4, 2025",
+      "status": "Application",
+      "also": "US 19/415,494 · CN 202511840140.4"
+    },
+    {
+      "title": "3D shape data acquisition method for automatic car wash equipment and vehicle shape data acquisition system",
+      "id": "KR 10-2504548-B1",
+      "date": "2023",
+      "status": "Registered",
+      "also": ""
+    }
   ],
-
   "software_copyrights": [
-    { "title": "Laser Beam Characteristics Evaluation Program", "authors": "Hyeon Jun Lim, Seung Ho Baeg", "id": "C-2021-008734", "date": "Feb 2021" },
-    { "title": "LiDAR Sensor Data Viewer Program", "authors": "Hyeon Jun Lim, Seung Ho Baeg", "id": "C-2020-052146", "date": "Dec 2020" },
-    { "title": "LAS File Conversion Program", "authors": "Hyeon Jun Lim, Seung Ho Baeg", "id": "C-2020-052137", "date": "Dec 2020" },
-    { "title": "NovAtel GNSS Data Reception Firmware for TI ARM Processor", "authors": "Seung Ho Baeg, Hyeon Jun Lim", "id": "C-2020-052144", "date": "Dec 2020" },
-    { "title": "Range Data Acquisition Firmware for DSP Processor", "authors": "Seung Ho Baeg, Hyeon Jun Lim", "id": "C-2020-052143", "date": "Dec 2020" },
-    { "title": "PRU Firmware for Motor Speed Control and Rotation Angle Detection on TI DSP", "authors": "Seung Ho Baeg, Hyeon Jun Lim", "id": "C-2020-052142", "date": "Dec 2020" },
-    { "title": "CAN and Serial Communication API Driver for TI DSP", "authors": "Seung Ho Baeg, Hyeon Jun Lim", "id": "C-2020-052141", "date": "Dec 2020" },
-    { "title": "Epson IMU Data Reception Firmware for PRU Processor", "authors": "Seung Ho Baeg, Hyeon Jun Lim", "id": "C-2020-052140", "date": "Dec 2020" }
+    {
+      "title": "Laser Beam Characteristics Evaluation Program",
+      "authors": "Hyeon Jun Lim, Seung Ho Baeg",
+      "id": "C-2021-008734",
+      "date": "Feb 2021"
+    },
+    {
+      "title": "LiDAR Sensor Data Viewer Program",
+      "authors": "Hyeon Jun Lim, Seung Ho Baeg",
+      "id": "C-2020-052146",
+      "date": "Dec 2020"
+    },
+    {
+      "title": "LAS File Conversion Program",
+      "authors": "Hyeon Jun Lim, Seung Ho Baeg",
+      "id": "C-2020-052137",
+      "date": "Dec 2020"
+    },
+    {
+      "title": "NovAtel GNSS Data Reception Firmware for TI ARM Processor",
+      "authors": "Seung Ho Baeg, Hyeon Jun Lim",
+      "id": "C-2020-052144",
+      "date": "Dec 2020"
+    },
+    {
+      "title": "Range Data Acquisition Firmware for DSP Processor",
+      "authors": "Seung Ho Baeg, Hyeon Jun Lim",
+      "id": "C-2020-052143",
+      "date": "Dec 2020"
+    },
+    {
+      "title": "PRU Firmware for Motor Speed Control and Rotation Angle Detection on TI DSP",
+      "authors": "Seung Ho Baeg, Hyeon Jun Lim",
+      "id": "C-2020-052142",
+      "date": "Dec 2020"
+    },
+    {
+      "title": "CAN and Serial Communication API Driver for TI DSP",
+      "authors": "Seung Ho Baeg, Hyeon Jun Lim",
+      "id": "C-2020-052141",
+      "date": "Dec 2020"
+    },
+    {
+      "title": "Epson IMU Data Reception Firmware for PRU Processor",
+      "authors": "Seung Ho Baeg, Hyeon Jun Lim",
+      "id": "C-2020-052140",
+      "date": "Dec 2020"
+    }
   ],
-
-  "skills": [
-    { "group": "Languages",            "items": ["Python", "C++", "MATLAB"] },
-    { "group": "Deep Learning & AI",   "items": ["PyTorch", "TensorFlow"] },
-    { "group": "Robotics & Perception","items": ["ROS", "PCL", "OpenCV"] },
-    { "group": "Control & Simulation", "items": ["MATLAB/Simulink", "NVIDIA IsaacSim", "Applied Intuition"] },
-    { "group": "Embedded Platforms",   "items": ["NVIDIA", "Qualcomm", "TI"] },
-    { "group": "Sensors",              "items": ["128-ch LiDAR", "2D/3D Scanning LiDAR", "Radar", "GNSS/IMU", "Multi-view / AVM Camera"] }
-  ],
-
-  "service": {
-    "reviewer": [
-      { "venue": "Journal of Electrical Engineering & Technology (JEET)", "note": "IF 1.6", "date": "Dec 2025" },
-      { "venue": "Journal of Korean Institute of Intelligent Systems (KIIS)", "note": "KCI IF 0.47", "date": "Mar 2024" },
-      { "venue": "Journal of Institute of Control, Robotics and Systems (ICROS)", "note": "KCI IF 0.84", "date": "Aug 2023" }
-    ],
-    "teaching": [
-      { "title": "Technical Instructor — Real-time LiDAR-to-Vehicle Calibration and Evaluation Methodologies", "org": "Hyundai Motor Group", "period": "Nov 2023 – May 2024" },
-      { "title": "Technical Instructor — Research and Implementation of LiDAR Calibration Technology", "org": "Hyundai Motor Group", "period": "May 2023 – Oct 2023" },
-      { "title": "Teaching Assistant — Control Engineering", "org": "Yonsei University", "period": "Fall 2016" },
-      { "title": "Teaching Assistant — EE Experiments: Fundamentals", "org": "Yonsei University", "period": "Spring 2016" },
-      { "title": "Teaching Assistant — Data Structures and Algorithms", "org": "Yonsei University", "period": "Spring 2016" }
-    ],
-    "awards": [
-      { "title": "Best Paper Award, KIIS Autumn Conference", "org": "Korea Institute of Intelligent Systems", "date": "2016" }
-    ],
-    "certificates": [
-      { "title": "HDAT DA Lv.2 (Hyundai Data Analytics Test)", "org": "Hyundai Motor Group", "date": "2022" },
-      { "title": "Korean History Proficiency Test: Level 1 (Advanced)", "org": "National Institute of Korean History", "date": "2020" }
-    ],
-    "other": [
-      { "title": "Technical Research Personnel (Alternative Military Service)", "org": "KITECH", "date": "2019 – 2021" }
-    ]
-  },
-
-  "conferences_attended": [
-    { "name": "NeurIPS 2025 — 39th Conference on Neural Information Processing Systems", "place": "San Diego, USA", "date": "Dec 2025" },
-    { "name": "KRoC 2021 — 16th Korea Robotics Society Annual Conference", "place": "Pyeongchang, Korea", "date": "May 2021" },
-    { "name": "KSCE 2020 Convention", "place": "Jeju, Korea", "date": "Oct 2020" },
-    { "name": "KIIS Autumn Conference 2020", "place": "Korea", "date": "Nov 2020" },
-    { "name": "LASER World of PHOTONICS CHINA 2019", "place": "Shanghai, China", "date": "Mar 2019" },
-    { "name": "KSAE Annual Autumn Conference 2018", "place": "Jeongseon, Korea", "date": "Nov 2018" },
-    { "name": "ICCAS 2017 — 17th Int. Conf. on Control, Automation and Systems", "place": "Jeju, Korea", "date": "Oct 2017" },
-    { "name": "SICE Annual Conference 2017", "place": "Kanazawa, Japan", "date": "Sep 2017" },
-    { "name": "KIEE Summer Conference 2017", "place": "Korea", "date": "Jul 2017" },
-    { "name": "KIIS Spring Conference 2017", "place": "Korea", "date": "Jun 2017" },
-    { "name": "iFuzzy 2016 — Int. Conf. on Fuzzy Theory and Its Applications", "place": "Taichung, Taiwan", "date": "Nov 2016" },
-    { "name": "KIIS Autumn Conference 2016", "place": "Korea", "date": "Nov 2016" },
-    { "name": "ICCAS 2016 — 16th Int. Conf. on Control, Automation and Systems", "place": "Gyeongju, Korea", "date": "Oct 2016" },
-    { "name": "KIIS Spring Conference 2016", "place": "Korea", "date": "Jun 2016" }
-  ],
-
   "press": [
-    { "outlet": "Hyundai Brand Journal", "title": "Robotaxis — Mobility Solution", "url": "https://www.hyundai.com/worldwide/ko/brand-journal/mobility-solution/robotaxis" },
-    { "outlet": "Hyundai Motor Group Newsroom", "title": "Autonomous driving technology feature", "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000099992" },
-    { "outlet": "Incheon Ilbo", "title": "Autonomous driving coverage", "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1283720" },
-    { "outlet": "Outsourcing", "title": "Robotics R&D coverage", "url": "https://www.outsourcing.co.kr/news/articleView.html?idxno=94985" },
-    { "outlet": "Hankyung", "title": "Autonomous driving coverage", "url": "https://www.hankyung.com/article/202211109300g" },
-    { "outlet": "Yonhap News", "title": "Autonomous driving coverage", "url": "https://www.yna.co.kr/view/AKR20220910032100003" },
-    { "outlet": "Newsis", "title": "LiDAR dataset coverage", "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20200605_0001049377" }
+    {
+      "outlet": "Hyundai Brand Journal",
+      "title": "Robotaxis — Mobility Solution",
+      "url": "https://www.hyundai.com/worldwide/ko/brand-journal/mobility-solution/robotaxis"
+    },
+    {
+      "outlet": "Hyundai Motor Group Newsroom",
+      "title": "Autonomous driving technology feature",
+      "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000099992"
+    },
+    {
+      "outlet": "Incheon Ilbo",
+      "title": "Autonomous driving coverage",
+      "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1283720"
+    },
+    {
+      "outlet": "Outsourcing",
+      "title": "Robotics R&D coverage",
+      "url": "https://www.outsourcing.co.kr/news/articleView.html?idxno=94985"
+    },
+    {
+      "outlet": "Hankyung",
+      "title": "Autonomous driving coverage",
+      "url": "https://www.hankyung.com/article/202211109300g"
+    },
+    {
+      "outlet": "Yonhap News",
+      "title": "Autonomous driving coverage",
+      "url": "https://www.yna.co.kr/view/AKR20220910032100003"
+    },
+    {
+      "outlet": "Newsis",
+      "title": "LiDAR dataset coverage",
+      "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20200605_0001049377"
+    }
   ]
 }

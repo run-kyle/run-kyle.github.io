@@ -39,7 +39,7 @@ git add -A && git commit -m "update profile" && git push
 | 최근 소식 추가 | `news` 배열 맨 위에 `{ "date": "...", "text": "..." }` 추가 |
 | 새 논문 | `publications` → 해당 `group` 의 `items` 에 추가 |
 | 새 특허 | `patents` 배열에 추가 |
-| 프로젝트 | `projects` 배열 (앞의 3개만 기본 노출, 나머지는 접힘) |
+| 프로젝트 | `projects` 배열 (전부 노출됨) |
 | Scholar/LinkedIn 링크 | `profile.links` 의 `REPLACE_ME` 를 실제 URL 로 교체 |
 | CV 갱신 | `assets/files/cv.pdf` 덮어쓰기 |
 
