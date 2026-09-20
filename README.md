@@ -40,6 +40,7 @@ git add -A && git commit -m "update profile" && git push
 | 새 논문 | `publications` → 해당 `group` 의 `items` 에 추가 |
 | 새 특허 | `patents` 배열에 추가 |
 | 프로젝트 | `projects` 배열 (전부 노출됨) |
+| 프로젝트 사진/영상 | `projects[].image` 에 경로. `.mp4`/`.webm` 이면 자동재생·무한반복 영상으로, 그 외는 이미지로 렌더링됩니다. `poster`(영상 첫 화면), `caption`(설명) 은 선택 |
 | Scholar/LinkedIn 링크 | `profile.links` 의 `REPLACE_ME` 를 실제 URL 로 교체 |
 | CV 갱신 | `assets/files/cv.pdf` 덮어쓰기 |
 

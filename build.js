@@ -202,10 +202,21 @@ function buildHome() {
           .join('\n')
       );
 
+  // `image` may point at a still or at a short clip (.mp4/.webm); clips play
+  // as a muted, looping poster-backed video.
+  const projectMedia = (pr) => {
+    if (!pr.image) return '';
+    const isClip = /\.(mp4|webm)$/i.test(pr.image);
+    const media = isClip
+      ? `<video class="project-thumb" src="${esc(pr.image)}"${pr.poster ? ` poster="${esc(pr.poster)}"` : ''} autoplay loop muted playsinline preload="metadata" aria-label="${esc(pr.title)}"></video>`
+      : `<img class="project-thumb" src="${esc(pr.image)}" alt="${esc(pr.title)}" loading="lazy">`;
+    return media + (pr.caption ? `<div class="project-caption">${rich(pr.caption)}</div>` : '');
+  };
+
   const projectCard = (pr) => `<article class="project">
-    ${pr.image ? `<img class="project-thumb" src="${esc(pr.image)}" alt="${esc(pr.title)}">` : ''}
     <div class="project-head"><h3 class="project-title">${esc(pr.title)}</h3><span class="entry-period">${esc(pr.period)}</span></div>
     <div class="project-org">${esc(pr.org)}</div>
+    ${projectMedia(pr)}
     <ul>${(pr.highlights || []).map((h) => `<li>${rich(h)}</li>`).join('')}</ul>
     ${isEmpty(pr.tags) ? '' : `<div class="tags">${pr.tags.map((t) => `<span class="tag tag--plain">${esc(t)}</span>`).join('')}</div>`}
   </article>`;
