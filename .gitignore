@@ -1,10 +1,12 @@
 .DS_Store
 .omc/
-node_modules/
-/CV*.pdf
-reference.txt
 .claude/
-profile.jpeg
-CV_*.pdf
-Object_*.mp4
-neurips.jpeg
+node_modules/
+
+# Source material kept locally — the web-ready copies under assets/ are tracked.
+/CV*.pdf
+/CV_*.pdf
+/*.pptx
+/*.mp4
+/*.jpeg
+/reference.txt
