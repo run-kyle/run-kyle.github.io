@@ -157,11 +157,16 @@ h1, h2, h3, h4 { line-height: 1.25; margin: 0; font-weight: 650; letter-spacing:
 
 /* ---------- News ---------- */
 .news { list-style: none; margin: 0; padding: 0; }
-.news li { display: flex; gap: 16px; padding: 9px 0; border-bottom: 1px dashed var(--border); font-size: .94rem; }
+.news li { display: flex; gap: 16px; align-items: flex-start; padding: 9px 0; border-bottom: 1px dashed var(--border); font-size: .94rem; }
 .news li:last-child { border-bottom: 0; }
 .news .date { flex: none; width: 88px; color: var(--text-faint); font-variant-numeric: tabular-nums; font-size: .86rem; padding-top: 1px; }
 .news .text { color: var(--text-muted); }
+.news .text { flex: 1; }
 .news .text strong { color: var(--text); font-weight: 600; }
+.news-thumb {
+  flex: none; width: 92px; height: 66px; object-fit: cover; object-position: center;
+  border-radius: 6px; border: 1px solid var(--border); background: var(--bg-soft);
+}
 
 /* ---------- Entry list (education / experience) ---------- */
 .entry { padding: 14px 0; border-bottom: 1px solid var(--border); }
@@ -256,8 +261,10 @@ details.more > summary:hover { color: var(--accent); }
   .grid-2 { grid-template-columns: 1fr; }
   .skill-row { flex-direction: column; gap: 6px; }
   .skill-group { width: auto; }
-  .news li { flex-direction: column; gap: 2px; }
-  .news .date { width: auto; }
+  .news li { flex-wrap: wrap; gap: 4px 12px; }
+  .news .date { width: 100%; }
+  .news .text { flex: 1 1 60%; }
+  .news-thumb { width: 78px; height: 56px; }
   .entry-head, .project-head { flex-direction: column; gap: 2px; }
   .nav-links { gap: 13px; }
   .nav-links a { font-size: .86rem; }

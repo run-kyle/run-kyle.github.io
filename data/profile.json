@@ -57,7 +57,9 @@
   "news": [
     {
       "date": "Dec 2025",
-      "text": "Attended <strong>NeurIPS 2025</strong> in San Diego, USA."
+      "text": "Attended <strong>NeurIPS 2025</strong> in San Diego, USA.",
+      "image": "assets/img/news/neurips-2025.jpg",
+      "alt": "NeurIPS 2025 attendee badge at the San Diego Convention Center"
     },
     {
       "date": "Dec 2025",

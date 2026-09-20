@@ -36,7 +36,7 @@ git add -A && git commit -m "update profile" && git push
 | 하고 싶은 것 | 고칠 곳 |
 |---|---|
 | 프로필 사진 | `assets/img/profile.jpg` 로 파일 저장 (없으면 이니셜이 표시됨) |
-| 최근 소식 추가 | `news` 배열 맨 위에 `{ "date": "...", "text": "..." }` 추가 |
+| 최근 소식 추가 | `news` 배열 맨 위에 `{ "date": "...", "text": "..." }` 추가. 썸네일을 붙이려면 `image`(경로) 와 `alt`(설명) 을 더하면 오른쪽에 표시됩니다 |
 | 새 논문 | `publications` → 해당 `group` 의 `items` 에 추가 |
 | 새 특허 | `patents` 배열에 추가 |
 | 프로젝트 | `projects` 배열 (전부 노출됨) |

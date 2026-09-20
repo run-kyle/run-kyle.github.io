@@ -165,7 +165,11 @@ function buildHome() {
         'news',
         'News',
         `<ul class="news">${data.news
-          .map((n) => `<li><span class="date">${esc(n.date)}</span><span class="text">${rich(n.text)}</span></li>`)
+          .map(
+            (n) => `<li><span class="date">${esc(n.date)}</span><span class="text">${rich(n.text)}</span>${
+              n.image ? `<img class="news-thumb" src="${esc(n.image)}" alt="${esc(n.alt || '')}" loading="lazy">` : ''
+            }</li>`
+          )
           .join('\n')}</ul>`
       );
 
