@@ -209,7 +209,7 @@ function buildHome() {
   const projectCard = (pr) => `<article class="project">
     <div class="project-head"><h3 class="project-title">${esc(pr.title)}</h3><span class="entry-period">${esc(pr.period)}</span></div>
     <div class="project-org">${esc(pr.org)}</div>
-    <ul>${(pr.highlights || []).map((h) => `<li>${rich(h)}</li>`).join('')}</ul>
+    ${pr.summary ? `<p class="project-summary">${rich(pr.summary)}</p>` : ''}
     ${isEmpty(pr.tags) ? '' : `<div class="tags">${pr.tags.map((t) => `<span class="tag tag--plain">${esc(t)}</span>`).join('')}</div>`}
   </article>`;
 

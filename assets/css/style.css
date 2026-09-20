@@ -182,15 +182,14 @@ h1, h2, h3, h4 { line-height: 1.25; margin: 0; font-weight: 650; letter-spacing:
 
 /* ---------- Project cards ---------- */
 .project {
-  padding: 20px; border: 1px solid var(--border); border-radius: var(--radius);
-  background: var(--bg-elev); margin-bottom: 14px; transition: border-color .15s ease, transform .15s ease;
+  padding: 17px 19px; border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--bg-elev); margin-bottom: 11px; transition: border-color .15s ease;
 }
 .project:hover { border-color: var(--border-strong); }
 .project-head { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; margin-bottom: 4px; }
 .project-title { font-size: 1.02rem; font-weight: 620; }
-.project-org { color: var(--text-faint); font-size: .86rem; margin-bottom: 12px; }
-.project ul { margin: 0 0 12px; padding-left: 18px; color: var(--text-muted); font-size: .92rem; }
-.project ul li { margin-bottom: 6px; }
+.project-org { color: var(--text-faint); font-size: .86rem; margin-bottom: 10px; }
+.project-summary { margin: 0 0 12px; color: var(--text-muted); font-size: .92rem; }
 /* ---------- Demos ---------- */
 .demo { margin: 0 0 26px; }
 .demo:last-child { margin-bottom: 8px; }

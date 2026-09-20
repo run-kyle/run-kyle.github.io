@@ -63,7 +63,7 @@
     },
     {
       "date": "Dec 2025",
-      "text": "Served as a reviewer for <em>Journal of Electrical Engineering &amp; Technology</em> (JEET, IF 1.6)."
+      "text": "Served as a reviewer for <em>Journal of Electrical Engineering &amp; Technology</em>."
     },
     {
       "date": "Aug 2025",
@@ -133,90 +133,70 @@
       "title": "Unified Closed-Loop Simulation Framework for RL-Based Autonomous Driving",
       "period": "Aug 2025 – Present",
       "org": "Hyundai Motor Company",
+      "summary": "Built a closed-loop RL training stack — 3DGS photorealistic environments, rule-driven reward modeling, and World-Model synthetic data — and deployed the resulting driving policies on physical vehicles.",
       "tags": [
         "Reinforcement Learning",
         "3DGS",
         "World Model",
         "Sim-to-Real"
-      ],
-      "highlights": [
-        "Architected a high-fidelity closed-loop simulation stack combining 3DGS-based photorealistic environments, rule-driven reward modeling, and World-Model-powered synthetic data generation for reactive long-tail scenario evaluation.",
-        "Optimized and validated real-world driving policies by integrating online/offline RL, designing specialized transfer layers, and deploying agents on physical vehicles — with major gains in success rate, safety, and collision avoidance."
       ]
     },
     {
       "title": "End-to-End Autonomous Planning System",
       "period": "Jul 2024 – Mar 2026",
       "org": "Hyundai Motor Company",
+      "summary": "Led development, embedded deployment, and real-world validation of a Transformer-based end-to-end planner, including its first-ever on-vehicle control.",
       "tags": [
         "Transformer",
         "E2E Planning",
         "Embedded Deployment"
-      ],
-      "highlights": [
-        "Led end-to-end driving software development, embedded deployment, and real-world validation of a Transformer-based planner, including the first-ever on-vehicle control with the system.",
-        "Built a unified training/inference framework, closed-loop evaluation with high-fidelity synthetic data, and custom real-time visualization and debugging tools used across diverse real-vehicle tests."
       ]
     },
     {
       "title": "Lv.3 / Lv.4 Autonomous Driving Perception Systems (HDP & Robo-Services)",
       "period": "Mar 2022 – Jun 2024",
       "org": "Hyundai Motor Company",
+      "summary": "Led the company's LiDAR perception stack — sensor evaluation, clustering, localization, and online calibration — validated on Genesis G90, Kia EV9, and the Robo-services fleet.",
       "tags": [
         "LiDAR Perception",
         "CUDA",
         "Calibration",
         "Genesis G90",
         "Kia EV9"
-      ],
-      "highlights": [
-        "Led architecture, development, and deployment of the company's LiDAR perception stack, and established the first systematic sensor-evaluation framework benchmarking 10+ vendors.",
-        "Developed core parsing, filtering, fault-detection, clustering, localization, and calibration technologies including online optical-flow calibration, with CUDA-optimized embedded performance.",
-        "Validated across Lv.3/Lv.4 platforms: Genesis G90, Kia EV9, and RoboRide / RoboShuttle / RoboDelivery services."
       ]
     },
     {
       "title": "River Management Technology Using a Drone-Based Survey Platform",
       "period": "Jun 2019 – Jun 2021",
       "org": "KITECH",
+      "summary": "Built a high-fidelity LiDAR simulation framework to derive hardware specifications and validate dual-wavelength bathymetric sensing for river and subsurface mapping.",
       "tags": [
         "LiDAR Simulation",
         "Bathymetry",
         "Embedded Systems"
-      ],
-      "highlights": [
-        "Developed a high-fidelity LiDAR simulation and analysis framework to derive optimal hardware specifications and validate dual-wavelength bathymetric sensing performance.",
-        "Translated point-cloud-based error modeling into actionable embedded-system requirements for high-accuracy river and subsurface mapping."
       ]
     },
     {
       "title": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception",
       "period": "Jun 2018 – May 2020",
       "org": "KITECH",
+      "summary": "Built South Korea's first large-scale 128-channel LiDAR dataset for autonomous driving — over a million labeled objects, automated annotation, and cm-level HD mapping.",
       "tags": [
         "Dataset",
         "128-ch LiDAR",
         "HD Mapping",
         "Auto-Annotation"
-      ],
-      "highlights": [
-        "Built South Korea's first large-scale, high-precision LiDAR dataset for autonomous driving — a million-label 128-channel corpus with automated annotation (90% time reduction) and long-tail extreme-condition captures.",
-        "Delivered cm-level HD mapping with custom tooling (LAS converter, point-wise sync, SOR filtering, rolling-shutter correction) and a full-stack calibrated sensor-logging platform.",
-        "Improved Z-axis accuracy from 10 cm to 1 cm via global ground-fitting, and benchmarked SOTA deep-learning models to confirm real-world robustness of the dataset."
       ]
     },
     {
       "title": "3D Vehicle Shape Generation System for Automated Car Wash",
       "period": "Jan 2019 – Dec 2020",
       "org": "KITECH",
+      "summary": "Developed a sub-2 cm-accuracy multi-LiDAR vehicle-profiling system for unmanned car-wash automation, running in real time on TI embedded hardware.",
       "tags": [
         "Multi-LiDAR",
         "Point Cloud",
         "TI Embedded"
-      ],
-      "highlights": [
-        "Developed a fast, sub-2 cm-accuracy 3D vehicle-profiling system for unmanned car-wash automation, integrating custom multi-LiDAR sensing and fused point-cloud reconstruction.",
-        "Delivered real-time TI-embedded processing for reliable geometry extraction and collision-free operation."
       ]
     }
   ],

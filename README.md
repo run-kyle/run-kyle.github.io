@@ -39,12 +39,12 @@ git add -A && git commit -m "update profile" && git push
 | 최근 소식 추가 | `news` 배열 맨 위에 `{ "date": "...", "text": "..." }` 추가. 썸네일을 붙이려면 `image`(경로) 와 `alt`(설명) 을 더하면 오른쪽에 표시됩니다 |
 | 새 논문 | `publications` → 해당 `group` 의 `items` 에 추가 |
 | 새 특허 | `patents` 배열에 추가 |
-| 프로젝트 | `projects` 배열 (전부 노출됨) |
+| 프로젝트 | `projects` 배열 (전부 노출됨). 본문은 `summary` 한 줄만 — 자세한 내용은 CV 에 있습니다 |
 | 데모 영상/사진 | `demos` 배열에 추가 (아래 참고) |
 | Scholar/LinkedIn 링크 | `profile.links` 의 `REPLACE_ME` 를 실제 URL 로 교체 |
 | CV 갱신 | `assets/files/cv.pdf` 덮어쓰기 |
 
-`bio`, `news[].text`, `projects[].highlights` 는 `<strong>`, `<em>`, `<a>` 같은 간단한 HTML 태그를 쓸 수 있습니다.
+`bio`, `news[].text`, `projects[].summary`, `demos[].description` 은 `<strong>`, `<em>`, `<a>` 같은 간단한 HTML 태그를 쓸 수 있습니다.
 그 외 필드는 자동으로 이스케이프되므로 태그를 넣어도 글자 그대로 표시됩니다.
 
 ## 첫 배포 (GitHub Pages)
