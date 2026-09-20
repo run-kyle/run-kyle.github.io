@@ -38,11 +38,6 @@
         "url": "https://scholar.google.com/citations?user=REPLACE_ME"
       },
       {
-        "label": "GitHub",
-        "icon": "github",
-        "url": "https://github.com/run-kyle"
-      },
-      {
         "label": "LinkedIn",
         "icon": "linkedin",
         "url": "https://www.linkedin.com/in/REPLACE_ME"
@@ -68,14 +63,6 @@
     {
       "date": "Aug 2025",
       "text": "Started a new project on a <strong>unified closed-loop simulation framework</strong> for RL-based autonomous driving."
-    },
-    {
-      "date": "Jul 2025",
-      "text": "Filed a patent on AI- and multi-sensor-based object detection data processing (KR / US / CN)."
-    },
-    {
-      "date": "Apr 2025",
-      "text": "Filed three patents on vehicle control and adaptive 3D sensor calibration (KR / US / DE / CN)."
     },
     {
       "date": "Jan 2025",
@@ -123,9 +110,7 @@
       "school": "Yonsei University",
       "location": "Seoul, South Korea",
       "period": "Feb 2016",
-      "notes": [
-        "National Science and Engineering Scholarship, Government of South Korea"
-      ]
+      "notes": []
     }
   ],
   "projects": [
@@ -428,37 +413,32 @@
   "press": [
     {
       "outlet": "Hyundai Brand Journal",
-      "title": "Robotaxis — Mobility Solution",
+      "title": "Hyundai × Motional: the IONIQ 5 robotaxi, arriving 2023",
       "url": "https://www.hyundai.com/worldwide/ko/brand-journal/mobility-solution/robotaxis"
     },
     {
       "outlet": "Hyundai Motor Group Newsroom",
-      "title": "Autonomous driving technology feature",
+      "title": "Hyundai's autonomous RoboShuttle runs at the National Assembly",
       "url": "https://www.hyundaimotorgroup.com/ko/news/CONT0000000000099992"
     },
     {
       "outlet": "Incheon Ilbo",
-      "title": "Autonomous driving coverage",
+      "title": "Incheon Airport opens autonomous shuttle service between Terminals 1 and 2",
       "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1283720"
     },
     {
-      "outlet": "Outsourcing",
-      "title": "Robotics R&D coverage",
+      "outlet": "Outsourcing Times",
+      "title": "Hyundai's Level 4 RoboShuttle runs in Pangyo Zero City",
       "url": "https://www.outsourcing.co.kr/news/articleView.html?idxno=94985"
     },
     {
-      "outlet": "Hankyung",
-      "title": "Autonomous driving coverage",
-      "url": "https://www.hankyung.com/article/202211109300g"
-    },
-    {
       "outlet": "Yonhap News",
-      "title": "Autonomous driving coverage",
+      "title": "Genesis to launch a Level 3-equipped G90 in Q4",
       "url": "https://www.yna.co.kr/view/AKR20220910032100003"
     },
     {
       "outlet": "Newsis",
-      "title": "LiDAR dataset coverage",
+      "title": "LX Spatial Information Research Institute opens its autonomous-driving dataset to the public",
       "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20200605_0001049377"
     }
   ]
