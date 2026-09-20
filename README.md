@@ -85,7 +85,7 @@ DNS 에서 `A` 레코드를 GitHub Pages IP(185.199.108~111.153) 로, 또는 `CN
   "project":     "과제명 · 소속, 기간",
   "media":       "assets/img/demos/파일명.mp4",
   "poster":      "assets/img/demos/파일명.jpg",
-  "description": "무엇을 보여주는 화면이고 왜 의미가 있는지"
+  "description": "선택 — 비워두면 제목과 출처 줄만 표시됩니다"
 }
 ```
 

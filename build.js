@@ -239,7 +239,7 @@ function buildHome() {
     <figcaption>
       <h3 class="demo-title">${esc(d.title)}</h3>
       ${d.project ? `<div class="demo-project">From: ${esc(d.project)}</div>` : ''}
-      <p class="demo-description">${rich(d.description)}</p>
+      ${d.description ? `<p class="demo-description">${rich(d.description)}</p>` : ''}
     </figcaption>
   </figure>`
           )
