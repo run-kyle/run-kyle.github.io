@@ -40,7 +40,7 @@ git add -A && git commit -m "update profile" && git push
 | 새 논문 | `publications` → 해당 `group` 의 `items` 에 추가 |
 | 새 특허 | `patents` 배열에 추가 |
 | 프로젝트 | `projects` 배열 (전부 노출됨) |
-| 프로젝트 사진/영상 | `projects[].image` 에 경로. `.mp4`/`.webm` 이면 자동재생·무한반복 영상으로, 그 외는 이미지로 렌더링됩니다. `poster`(영상 첫 화면), `caption`(설명) 은 선택 |
+| 데모 영상/사진 | `demos` 배열에 추가 (아래 참고) |
 | Scholar/LinkedIn 링크 | `profile.links` 의 `REPLACE_ME` 를 실제 URL 로 교체 |
 | CV 갱신 | `assets/files/cv.pdf` 덮어쓰기 |
 
@@ -73,3 +73,31 @@ git push -u origin main
 도메인을 붙일 때는 저장소 루트에 `CNAME` 파일을 만들고 도메인만 한 줄 적은 뒤,
 DNS 에서 `A` 레코드를 GitHub Pages IP(185.199.108~111.153) 로, 또는 `CNAME` 을
 `<username>.github.io` 로 지정합니다.
+
+## 데모 추가하기
+
+프로젝트 카드에는 미디어를 넣지 않습니다. 공개 가능한 영상·사진은 `demos` 배열에
+모으고, 각 항목이 어느 프로젝트에서 나온 것인지 `project` 에 적습니다.
+
+```json
+{
+  "title":       "128-Channel LiDAR Annotation Viewer",
+  "project":     "과제명 · 소속, 기간",
+  "media":       "assets/img/demos/파일명.mp4",
+  "poster":      "assets/img/demos/파일명.jpg",
+  "description": "무엇을 보여주는 화면이고 왜 의미가 있는지"
+}
+```
+
+`media` 가 `.mp4` / `.webm` 이면 소리 없이 자동재생·무한반복되는 영상으로, 그 외
+확장자면 이미지로 렌더링됩니다. `poster` 는 영상 로딩 전 첫 화면이며 생략 가능합니다.
+
+원본 영상은 그대로 올리지 말고 웹용으로 줄여서 넣으세요. 예시:
+
+```bash
+ffmpeg -ss 0.5 -t 8 -i 원본.mp4 -vf "scale=960:-2,fps=20" \
+  -c:v libx264 -profile:v main -pix_fmt yuv420p -crf 31 -preset slow \
+  -an -map_metadata -1 -movflags +faststart 출력.mp4
+```
+
+`-an` 은 오디오 제거, `-map_metadata -1` 은 촬영기기·GPS 같은 메타데이터 제거입니다.

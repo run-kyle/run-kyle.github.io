@@ -27,7 +27,7 @@
 <nav class="nav">
   <div class="nav-inner">
     <a class="nav-brand" href="index.html">Hyeon Jun Lim</a>
-    <div class="nav-links"><a href="#about">About</a><a href="#projects">Projects</a><a href="publications.html">Publications</a><a href="assets/files/cv.pdf">CV</a></div>
+    <div class="nav-links"><a href="#projects">Projects</a><a href="#demos">Demos</a><a href="publications.html">Publications</a><a href="assets/files/cv.pdf">CV</a></div>
     <button class="theme-toggle" type="button" aria-label="Toggle color theme">
       <svg class="icon-sun" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M8 .8v2M8 13.2v2M.8 8h2M13.2 8h2M2.9 2.9l1.4 1.4M11.7 11.7l1.4 1.4M13.1 2.9l-1.4 1.4M4.3 11.7l-1.4 1.4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
       <svg class="icon-moon" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.5 9.6A5.8 5.8 0 0 1 6.4 2.5a5.8 5.8 0 1 0 7.1 7.1Z" fill="currentColor"/></svg>
@@ -81,45 +81,47 @@
 <section class="section" id="projects"><h2 class="section-title">Selected Projects</h2><article class="project">
     <div class="project-head"><h3 class="project-title">Unified Closed-Loop Simulation Framework for RL-Based Autonomous Driving</h3><span class="entry-period">Aug 2025 – Present</span></div>
     <div class="project-org">Hyundai Motor Company</div>
-    
     <ul><li>Architected a high-fidelity closed-loop simulation stack combining 3DGS-based photorealistic environments, rule-driven reward modeling, and World-Model-powered synthetic data generation for reactive long-tail scenario evaluation.</li><li>Optimized and validated real-world driving policies by integrating online/offline RL, designing specialized transfer layers, and deploying agents on physical vehicles — with major gains in success rate, safety, and collision avoidance.</li></ul>
     <div class="tags"><span class="tag tag--plain">Reinforcement Learning</span><span class="tag tag--plain">3DGS</span><span class="tag tag--plain">World Model</span><span class="tag tag--plain">Sim-to-Real</span></div>
   </article>
 <article class="project">
     <div class="project-head"><h3 class="project-title">End-to-End Autonomous Planning System</h3><span class="entry-period">Jul 2024 – Mar 2026</span></div>
     <div class="project-org">Hyundai Motor Company</div>
-    
     <ul><li>Led end-to-end driving software development, embedded deployment, and real-world validation of a Transformer-based planner, including the first-ever on-vehicle control with the system.</li><li>Built a unified training/inference framework, closed-loop evaluation with high-fidelity synthetic data, and custom real-time visualization and debugging tools used across diverse real-vehicle tests.</li></ul>
     <div class="tags"><span class="tag tag--plain">Transformer</span><span class="tag tag--plain">E2E Planning</span><span class="tag tag--plain">Embedded Deployment</span></div>
   </article>
 <article class="project">
     <div class="project-head"><h3 class="project-title">Lv.3 / Lv.4 Autonomous Driving Perception Systems (HDP &amp; Robo-Services)</h3><span class="entry-period">Mar 2022 – Jun 2024</span></div>
     <div class="project-org">Hyundai Motor Company</div>
-    
     <ul><li>Led architecture, development, and deployment of the company's LiDAR perception stack, and established the first systematic sensor-evaluation framework benchmarking 10+ vendors.</li><li>Developed core parsing, filtering, fault-detection, clustering, localization, and calibration technologies including online optical-flow calibration, with CUDA-optimized embedded performance.</li><li>Validated across Lv.3/Lv.4 platforms: Genesis G90, Kia EV9, and RoboRide / RoboShuttle / RoboDelivery services.</li></ul>
     <div class="tags"><span class="tag tag--plain">LiDAR Perception</span><span class="tag tag--plain">CUDA</span><span class="tag tag--plain">Calibration</span><span class="tag tag--plain">Genesis G90</span><span class="tag tag--plain">Kia EV9</span></div>
   </article>
 <article class="project">
     <div class="project-head"><h3 class="project-title">River Management Technology Using a Drone-Based Survey Platform</h3><span class="entry-period">Jun 2019 – Jun 2021</span></div>
     <div class="project-org">KITECH</div>
-    
     <ul><li>Developed a high-fidelity LiDAR simulation and analysis framework to derive optimal hardware specifications and validate dual-wavelength bathymetric sensing performance.</li><li>Translated point-cloud-based error modeling into actionable embedded-system requirements for high-accuracy river and subsurface mapping.</li></ul>
     <div class="tags"><span class="tag tag--plain">LiDAR Simulation</span><span class="tag tag--plain">Bathymetry</span><span class="tag tag--plain">Embedded Systems</span></div>
   </article>
 <article class="project">
     <div class="project-head"><h3 class="project-title">Standardized Open Database and Evaluation System for Intelligent Vehicle Perception</h3><span class="entry-period">Jun 2018 – May 2020</span></div>
     <div class="project-org">KITECH</div>
-    <video class="project-thumb" src="assets/img/projects/lidar-dataset.mp4" poster="assets/img/projects/lidar-dataset.jpg" autoplay loop muted playsinline preload="metadata" aria-label="Standardized Open Database and Evaluation System for Intelligent Vehicle Perception"></video><div class="project-caption">Annotation viewer from the dataset build: 128-channel LiDAR point cloud with 3D object boxes (top), and the same objects projected into the synchronized front-left and rear-mid camera views.</div>
     <ul><li>Built South Korea's first large-scale, high-precision LiDAR dataset for autonomous driving — a million-label 128-channel corpus with automated annotation (90% time reduction) and long-tail extreme-condition captures.</li><li>Delivered cm-level HD mapping with custom tooling (LAS converter, point-wise sync, SOR filtering, rolling-shutter correction) and a full-stack calibrated sensor-logging platform.</li><li>Improved Z-axis accuracy from 10 cm to 1 cm via global ground-fitting, and benchmarked SOTA deep-learning models to confirm real-world robustness of the dataset.</li></ul>
     <div class="tags"><span class="tag tag--plain">Dataset</span><span class="tag tag--plain">128-ch LiDAR</span><span class="tag tag--plain">HD Mapping</span><span class="tag tag--plain">Auto-Annotation</span></div>
   </article>
 <article class="project">
     <div class="project-head"><h3 class="project-title">3D Vehicle Shape Generation System for Automated Car Wash</h3><span class="entry-period">Jan 2019 – Dec 2020</span></div>
     <div class="project-org">KITECH</div>
-    
     <ul><li>Developed a fast, sub-2 cm-accuracy 3D vehicle-profiling system for unmanned car-wash automation, integrating custom multi-LiDAR sensing and fused point-cloud reconstruction.</li><li>Delivered real-time TI-embedded processing for reliable geometry extraction and collision-free operation.</li></ul>
     <div class="tags"><span class="tag tag--plain">Multi-LiDAR</span><span class="tag tag--plain">Point Cloud</span><span class="tag tag--plain">TI Embedded</span></div>
   </article></section>
+<section class="section" id="demos"><h2 class="section-title">Demos</h2><figure class="demo">
+    <video class="demo-media" src="assets/img/demos/lidar-annotation-viewer.mp4" poster="assets/img/demos/lidar-annotation-viewer.jpg" autoplay loop muted playsinline preload="metadata" aria-label="128-Channel LiDAR Annotation Viewer"></video>
+    <figcaption>
+      <h3 class="demo-title">128-Channel LiDAR Annotation Viewer</h3>
+      <div class="demo-project">From: Standardized Open Database and Evaluation System for Intelligent Vehicle Perception · KITECH, 2018–2020</div>
+      <p class="demo-description">The in-house viewer used to build and verify the dataset. The top panel is a single 128-channel LiDAR sweep with 3D object boxes; the bottom panels project those same boxes into the time-synchronized front-left and rear-mid cameras. Checking the projection frame by frame is how mislabeled objects and sensor mis-calibration were caught before a sequence entered the corpus — the corpus that eventually reached over a million labeled objects.</p>
+    </figcaption>
+  </figure></section>
 
 <section class="section" id="press"><h2 class="section-title">In the News</h2><div class="row">
     <div class="row-title"><a href="https://www.hyundai.com/worldwide/ko/brand-journal/mobility-solution/robotaxis" target="_blank" rel="noopener">Robotaxis — Mobility Solution</a></div>

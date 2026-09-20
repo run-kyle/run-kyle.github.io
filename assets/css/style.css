@@ -186,15 +186,16 @@ h1, h2, h3, h4 { line-height: 1.25; margin: 0; font-weight: 650; letter-spacing:
 .project-org { color: var(--text-faint); font-size: .86rem; margin-bottom: 12px; }
 .project ul { margin: 0 0 12px; padding-left: 18px; color: var(--text-muted); font-size: .92rem; }
 .project ul li { margin-bottom: 6px; }
-.project-thumb {
-  width: 100%; display: block; border-radius: 8px; border: 1px solid var(--border);
+/* ---------- Demos ---------- */
+.demo { margin: 0 0 26px; }
+.demo:last-child { margin-bottom: 8px; }
+.demo-media {
+  width: 100%; display: block; border-radius: 10px; border: 1px solid var(--border);
   background: #000; aspect-ratio: 16 / 9; object-fit: cover;
 }
-.project-caption {
-  color: var(--text-faint); font-size: .8rem; margin: 8px 0 14px; line-height: 1.5;
-}
-/* Media with no caption still needs the gap before the body copy. */
-.project-thumb + ul, .project-thumb + .tags { margin-top: 14px; }
+.demo-title { font-size: 1rem; font-weight: 620; margin-top: 14px; }
+.demo-project { color: var(--text-faint); font-size: .82rem; margin-top: 3px; }
+.demo-description { color: var(--text-muted); font-size: .92rem; margin: 9px 0 0; }
 
 /* ---------- Publications ---------- */
 .pub-group { margin-bottom: 30px; }

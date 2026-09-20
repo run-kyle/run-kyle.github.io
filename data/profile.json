@@ -131,7 +131,6 @@
       "title": "Unified Closed-Loop Simulation Framework for RL-Based Autonomous Driving",
       "period": "Aug 2025 – Present",
       "org": "Hyundai Motor Company",
-      "image": "",
       "tags": [
         "Reinforcement Learning",
         "3DGS",
@@ -141,15 +140,12 @@
       "highlights": [
         "Architected a high-fidelity closed-loop simulation stack combining 3DGS-based photorealistic environments, rule-driven reward modeling, and World-Model-powered synthetic data generation for reactive long-tail scenario evaluation.",
         "Optimized and validated real-world driving policies by integrating online/offline RL, designing specialized transfer layers, and deploying agents on physical vehicles — with major gains in success rate, safety, and collision avoidance."
-      ],
-      "poster": "",
-      "caption": ""
+      ]
     },
     {
       "title": "End-to-End Autonomous Planning System",
       "period": "Jul 2024 – Mar 2026",
       "org": "Hyundai Motor Company",
-      "image": "",
       "tags": [
         "Transformer",
         "E2E Planning",
@@ -158,15 +154,12 @@
       "highlights": [
         "Led end-to-end driving software development, embedded deployment, and real-world validation of a Transformer-based planner, including the first-ever on-vehicle control with the system.",
         "Built a unified training/inference framework, closed-loop evaluation with high-fidelity synthetic data, and custom real-time visualization and debugging tools used across diverse real-vehicle tests."
-      ],
-      "poster": "",
-      "caption": ""
+      ]
     },
     {
       "title": "Lv.3 / Lv.4 Autonomous Driving Perception Systems (HDP & Robo-Services)",
       "period": "Mar 2022 – Jun 2024",
       "org": "Hyundai Motor Company",
-      "image": "",
       "tags": [
         "LiDAR Perception",
         "CUDA",
@@ -178,15 +171,12 @@
         "Led architecture, development, and deployment of the company's LiDAR perception stack, and established the first systematic sensor-evaluation framework benchmarking 10+ vendors.",
         "Developed core parsing, filtering, fault-detection, clustering, localization, and calibration technologies including online optical-flow calibration, with CUDA-optimized embedded performance.",
         "Validated across Lv.3/Lv.4 platforms: Genesis G90, Kia EV9, and RoboRide / RoboShuttle / RoboDelivery services."
-      ],
-      "poster": "",
-      "caption": ""
+      ]
     },
     {
       "title": "River Management Technology Using a Drone-Based Survey Platform",
       "period": "Jun 2019 – Jun 2021",
       "org": "KITECH",
-      "image": "",
       "tags": [
         "LiDAR Simulation",
         "Bathymetry",
@@ -195,15 +185,12 @@
       "highlights": [
         "Developed a high-fidelity LiDAR simulation and analysis framework to derive optimal hardware specifications and validate dual-wavelength bathymetric sensing performance.",
         "Translated point-cloud-based error modeling into actionable embedded-system requirements for high-accuracy river and subsurface mapping."
-      ],
-      "poster": "",
-      "caption": ""
+      ]
     },
     {
       "title": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception",
       "period": "Jun 2018 – May 2020",
       "org": "KITECH",
-      "image": "assets/img/projects/lidar-dataset.mp4",
       "tags": [
         "Dataset",
         "128-ch LiDAR",
@@ -214,15 +201,12 @@
         "Built South Korea's first large-scale, high-precision LiDAR dataset for autonomous driving — a million-label 128-channel corpus with automated annotation (90% time reduction) and long-tail extreme-condition captures.",
         "Delivered cm-level HD mapping with custom tooling (LAS converter, point-wise sync, SOR filtering, rolling-shutter correction) and a full-stack calibrated sensor-logging platform.",
         "Improved Z-axis accuracy from 10 cm to 1 cm via global ground-fitting, and benchmarked SOTA deep-learning models to confirm real-world robustness of the dataset."
-      ],
-      "poster": "assets/img/projects/lidar-dataset.jpg",
-      "caption": "Annotation viewer from the dataset build: 128-channel LiDAR point cloud with 3D object boxes (top), and the same objects projected into the synchronized front-left and rear-mid camera views."
+      ]
     },
     {
       "title": "3D Vehicle Shape Generation System for Automated Car Wash",
       "period": "Jan 2019 – Dec 2020",
       "org": "KITECH",
-      "image": "",
       "tags": [
         "Multi-LiDAR",
         "Point Cloud",
@@ -231,9 +215,16 @@
       "highlights": [
         "Developed a fast, sub-2 cm-accuracy 3D vehicle-profiling system for unmanned car-wash automation, integrating custom multi-LiDAR sensing and fused point-cloud reconstruction.",
         "Delivered real-time TI-embedded processing for reliable geometry extraction and collision-free operation."
-      ],
-      "poster": "",
-      "caption": ""
+      ]
+    }
+  ],
+  "demos": [
+    {
+      "title": "128-Channel LiDAR Annotation Viewer",
+      "project": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception · KITECH, 2018–2020",
+      "media": "assets/img/demos/lidar-annotation-viewer.mp4",
+      "poster": "assets/img/demos/lidar-annotation-viewer.jpg",
+      "description": "The in-house viewer used to build and verify the dataset. The top panel is a single 128-channel LiDAR sweep with 3D object boxes; the bottom panels project those same boxes into the time-synchronized front-left and rear-mid cameras. Checking the projection frame by frame is how mislabeled objects and sensor mis-calibration were caught before a sequence entered the corpus — the corpus that eventually reached over a million labeled objects."
     }
   ],
   "publications": [
