@@ -10,3 +10,5 @@ node_modules/
 /*.mp4
 /*.jpeg
 /reference.txt
+# Raw media extracted from presentation decks — web-ready copies go under assets/.
+media/
