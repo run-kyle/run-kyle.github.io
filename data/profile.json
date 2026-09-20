@@ -187,11 +187,42 @@
   ],
   "demos": [
     {
-      "title": "128-Channel LiDAR Annotation Viewer",
+      "title": "Autonomous Driving Data Acquisition Vehicle",
+      "project": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception · KITECH, 2018–2020",
+      "media": "assets/img/demos/data-acquisition-vehicle.jpg",
+      "description": "The survey vehicle built to collect the dataset, and its sensor layout. A 128-channel VLS-128 and an HDL-32E sit on the roof rack, with LD-MRS and VLP-16 units covering the blind spots, ESR and RSDS radars at the corners, multi-view and blind-spot cameras, an Ekinox-D INS, and a distance-measuring instrument on the OBD-II bus. Every sensor is time-synchronized and calibrated against the vehicle frame, so each logged frame carries a consistent pose — the precondition for everything built on top of it."
+    },
+    {
+      "title": "128-Channel LiDAR Dataset for Autonomous Driving",
       "project": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception · KITECH, 2018–2020",
       "media": "assets/img/demos/lidar-annotation-viewer.mp4",
       "poster": "assets/img/demos/lidar-annotation-viewer.jpg",
-      "description": "The in-house viewer used to build and verify the dataset. The top panel is a single 128-channel LiDAR sweep with 3D object boxes; the bottom panels project those same boxes into the time-synchronized front-left and rear-mid cameras. Checking the projection frame by frame is how mislabeled objects and sensor mis-calibration were caught before a sequence entered the corpus — the corpus that eventually reached over a million labeled objects."
+      "description": "South Korea's first large-scale, high-precision LiDAR dataset for autonomous driving, built from the vehicle above and grown to over a million labeled objects. Automated annotation cut labeling time by roughly 90%, and long-tail captures deliberately covered the conditions a fair-weather corpus misses. The clip shows the verification tool: a 128-channel sweep with 3D boxes on top, those same boxes projected into the synchronized front-left and rear-mid cameras below — the cross-check that caught mislabeled objects and calibration drift before a sequence entered the corpus."
+    },
+    {
+      "title": "HD Map Reconstruction from LiDAR Sweeps",
+      "project": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception · KITECH, 2018–2020",
+      "media": "assets/img/demos/hd-map-pointcloud.mp4",
+      "poster": "assets/img/demos/hd-map-pointcloud.jpg",
+      "description": "A mapping pipeline built on the dataset: individual LiDAR sweeps are registered into a single georeferenced point cloud dense enough to read lane markings, crosswalks, curb lines, and building facades directly off the geometry. Global ground-fitting brought Z-axis accuracy from 10 cm to 1 cm, which is what makes the road surface usable as an HD map layer rather than just a visualization."
+    },
+    {
+      "title": "3D Vehicle Shape Profiling",
+      "project": "3D Vehicle Shape Generation System for Automated Car Wash · KITECH, 2019–2020",
+      "media": "assets/img/demos/vehicle-shape-profiling.jpg",
+      "description": "Shape extraction from a fused multi-LiDAR scan (left) and the wireframe surface reconstructed from it (right). An unmanned car wash has to know the exact silhouette of whatever drives in before its brushes move, so the profile is built in real time on TI embedded hardware and holds sub-2 cm accuracy — enough to keep the machine clear of mirrors, spoilers, and roof racks."
+    },
+    {
+      "title": "Dihedral-Angle Calibration for Scanning LiDAR",
+      "project": "Publication: “Calibration Technique between 2D LiDAR Sensor and Linear Encoder using Dihedral Angle” · Journal of Information and Control, 2020",
+      "media": "assets/img/demos/dihedral-calibration.jpg",
+      "description": "A 2D LiDAR swept by a linear encoder produces a skewed point cloud when the two are misaligned: flat surfaces come back as slanted ones (left). Scanning a dihedral target gives a geometric constraint that solves for the offset in closed form, squaring the reconstruction back up (right). The bottom row is the same scene viewed along the axis where the distortion is most visible."
+    },
+    {
+      "title": "Atria AI — Hyundai Motor Group's Autonomous Driving in Gangnam",
+      "project": "Hyundai Motor Group · published Sep 2026",
+      "youtube": "-7BEzmdrlcU",
+      "description": "Hyundai Motor Group's official video of Atria AI driving through Gangnam, central Seoul. Embedded from the company's YouTube channel."
     }
   ],
   "publications": [
