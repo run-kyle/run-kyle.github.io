@@ -193,13 +193,15 @@ h1, h2, h3, h4 { line-height: 1.25; margin: 0; font-weight: 650; letter-spacing:
 /* ---------- Demos ---------- */
 .demo { margin: 0 0 26px; }
 .demo:last-child { margin-bottom: 8px; }
-/* Each demo keeps its own aspect ratio — these range from 21:9 to 4:3. */
+/* Each demo keeps its own aspect ratio — these range from 21:9 to 4:3 —
+   but a height cap keeps the tall ones from dominating the page. */
 .demo-media {
-  width: 100%; height: auto; display: block; border-radius: 10px;
+  max-width: 100%; max-height: 340px; width: auto; height: auto;
+  display: block; border-radius: 10px;
   border: 1px solid var(--border); background: #000;
 }
 .demo-embed {
-  position: relative; width: 100%; aspect-ratio: 16 / 9;
+  position: relative; width: 100%; max-width: 604px; aspect-ratio: 16 / 9;
   border-radius: 10px; overflow: hidden; border: 1px solid var(--border); background: #000;
 }
 .demo-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
@@ -213,6 +215,10 @@ h1, h2, h3, h4 { line-height: 1.25; margin: 0; font-weight: 650; letter-spacing:
 .pub { display: flex; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--border); }
 .pub:last-child { border-bottom: 0; }
 .pub-year { flex: none; width: 46px; color: var(--text-faint); font-size: .85rem; font-variant-numeric: tabular-nums; padding-top: 2px; }
+.pub-thumb {
+  flex: none; width: 116px; height: 88px; object-fit: contain; padding: 4px;
+  border-radius: 6px; border: 1px solid var(--border); background: #fff;
+}
 .pub-title { font-weight: 570; font-size: .96rem; }
 .pub-authors { color: var(--text-muted); font-size: .88rem; }
 .pub-authors .me { color: var(--text); font-weight: 620; }

@@ -209,11 +209,6 @@
       "media": "assets/img/demos/vehicle-shape-profiling.jpg"
     },
     {
-      "title": "Dihedral-Angle Calibration for Scanning LiDAR",
-      "project": "Publication: “Calibration Technique between 2D LiDAR Sensor and Linear Encoder using Dihedral Angle” · Journal of Information and Control, 2020",
-      "media": "assets/img/demos/dihedral-calibration.jpg"
-    },
-    {
       "title": "Atria AI — Hyundai Motor Group's Autonomous Driving in Gangnam",
       "project": "Hyundai Motor Group · published Sep 2026",
       "youtube": "-7BEzmdrlcU"
@@ -224,17 +219,18 @@
       "group": "Journal Articles",
       "items": [
         {
-          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
-          "title": "Relaxed Stabilization Conditions for Discrete T-S Fuzzy Models under Imperfect Premise Matching",
-          "venue": "Journal of Korean Institute of Intelligent Systems (KCI, IF 0.47)",
-          "year": "2017",
-          "url": ""
-        },
-        {
           "authors": "Hyeon Jun Lim, Seung Ho Baeg*",
           "title": "Calibration Technique between 2D LiDAR Sensor and Linear Encoder using Dihedral Angle",
           "venue": "Journal of Information and Control (KCI)",
           "year": "2020",
+          "url": "",
+          "image": "assets/img/pubs/dihedral-calibration.jpg"
+        },
+        {
+          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "title": "Relaxed Stabilization Conditions for Discrete T-S Fuzzy Models under Imperfect Premise Matching",
+          "venue": "Journal of Korean Institute of Intelligent Systems (KCI, IF 0.47)",
+          "year": "2017",
           "url": ""
         },
         {

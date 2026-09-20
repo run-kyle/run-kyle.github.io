@@ -317,6 +317,7 @@ function buildPublications() {
               .map(
                 (it) => `<div class="pub">
       <div class="pub-year">${esc(it.year)}</div>
+      ${it.image ? `<img class="pub-thumb" src="${esc(it.image)}" alt="Figure from ${esc(it.title)}" loading="lazy">` : ''}
       <div>
         <div class="pub-title">${it.url ? `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>` : esc(it.title)}</div>
         <div class="pub-authors">${markAuthors(it.authors, name)}</div>
