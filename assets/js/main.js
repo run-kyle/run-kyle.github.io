@@ -45,7 +45,7 @@
 
 // Click any figure or clip to see it at full size.
 (function () {
-  var SELECTOR = '.demo-frame img, .demo-frame video, .pub-thumb, .news-thumb';
+  var SELECTOR = '.demo-frame img, .demo-frame video, .pub-thumb, .news-thumb, .sw-thumb';
 
   document.addEventListener('DOMContentLoaded', function () {
     var targets = document.querySelectorAll(SELECTOR);

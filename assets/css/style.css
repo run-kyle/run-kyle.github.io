@@ -232,6 +232,15 @@ h1, h2, h3, h4 { line-height: 1.25; margin: 0; font-weight: 650; letter-spacing:
 .row:last-child { border-bottom: 0; }
 .row-title { font-weight: 570; font-size: .95rem; }
 .row-meta { color: var(--text-faint); font-size: .85rem; }
+/* Rows that carry a screen of the registered software. Thumbnails are
+   authored at the tile ratio, so cover fills them without cropping. */
+.row--media { display: flex; gap: 14px; align-items: flex-start; }
+.sw-thumb {
+  flex: none; width: 128px; height: 80px; object-fit: cover;
+  border-radius: 6px; border: 1px solid var(--border); background: var(--bg-soft);
+}
+@media (max-width: 640px) { .sw-thumb { display: none; } }
+
 .badge {
   display: inline-block; font-size: .7rem; font-weight: 650; letter-spacing: .04em;
   padding: 1px 7px; border-radius: 4px; vertical-align: 2px; margin-left: 8px;

@@ -360,9 +360,12 @@ function buildPublications() {
         'Software Copyrights',
         data.software_copyrights
           .map(
-            (s) => `<div class="row">
-    <div class="row-title">${esc(s.title)}</div>
-    <div class="row-meta">${markAuthors(s.authors, name)} · ${esc(s.id)} · ${esc(s.date)}</div>
+            (s) => `<div class="row row--media">
+    ${s.image ? `<img class="sw-thumb" src="${esc(s.image)}" alt="Screen from ${esc(s.title)}" loading="lazy">` : ''}
+    <div>
+      <div class="row-title">${esc(s.title)}</div>
+      <div class="row-meta">${markAuthors(s.authors, name)} · ${esc(s.id)} · ${esc(s.date)}</div>
+    </div>
   </div>`
           )
           .join('\n')

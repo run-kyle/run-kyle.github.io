@@ -17,7 +17,7 @@
     "bio": [
       "I build a closed-loop reinforcement learning framework for autonomous driving, as a Senior Research Engineer at <strong>Hyundai Motor Company</strong>.",
       "I have also developed an end-to-end autonomous driving system and ran it on a real vehicle, built a LiDAR perception system for Lv.3 and Lv.4 autonomous driving, and constructed <strong>KODAS, Korea's first large-scale autonomous driving dataset</strong>.",
-      "My goal is to make reinforcement learning practical on physical systems beyond driving. Neither simulation nor recorded experience is enough on its own, so I work on <strong>sim-to-real transfer</strong> alongside learning from the data that deployed systems already generate. Both lead back to the same problem of knowing how far a policy can be trusted before it touches hardware."
+      "My goal is to make reinforcement learning practical on physical systems beyond driving. Simulation alone is not enough, and neither is logged data. I work on both <strong>sim-to-real transfer</strong> and learning from what deployed systems already produce. The hard part in either case is deciding how much to trust a policy before it runs on hardware."
     ],
     "interests": [
       "Reinforcement Learning for Driving Policies",
@@ -461,19 +461,22 @@
       "title": "Laser Beam Characteristics Evaluation Program",
       "authors": "Hyeon Jun Lim, Seung Ho Baeg",
       "id": "C-2021-008734",
-      "date": "Feb 2021"
+      "date": "Feb 2021",
+      "image": "assets/img/sw/laser-beam-evaluation.jpg"
     },
     {
       "title": "LiDAR Sensor Data Viewer Program",
       "authors": "Hyeon Jun Lim, Seung Ho Baeg",
       "id": "C-2020-052146",
-      "date": "Dec 2020"
+      "date": "Dec 2020",
+      "image": "assets/img/sw/lidar-data-viewer.jpg"
     },
     {
       "title": "LAS File Conversion Program",
       "authors": "Hyeon Jun Lim, Seung Ho Baeg",
       "id": "C-2020-052137",
-      "date": "Dec 2020"
+      "date": "Dec 2020",
+      "image": "assets/img/sw/las-converter.jpg"
     },
     {
       "title": "NovAtel GNSS Data Reception Firmware for TI ARM Processor",
