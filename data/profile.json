@@ -15,9 +15,9 @@
     "email": "kyle13@yonsei.ac.kr",
     "cv": "assets/files/cv.pdf",
     "bio": [
-      "I build a closed-loop reinforcement learning framework for autonomous driving, as a Senior Research Engineer at <strong>Hyundai Motor Company</strong>.",
-      "I have also developed an end-to-end autonomous driving system and ran it on a real vehicle, built a LiDAR perception system for Lv.3 and Lv.4 autonomous driving, and constructed <strong>Korea's first large-scale LiDAR dataset</strong>.",
-      "My goal is to make reinforcement learning work on physical systems beyond driving. Simulation and logged experience each fall short on their own, so I work on <strong>sim-to-real transfer</strong> alongside <strong>offline learning</strong> from the data that deployed systems already produce, and on judging how far a policy trained either way can be trusted before it reaches hardware."
+      "I build a closed-loop reinforcement learning framework for autonomous driving, as a Senior Research Engineer at Hyundai Motor Company.",
+      "I have also developed an end-to-end autonomous driving system and ran it on a real vehicle, built a LiDAR perception system for Lv.3 and Lv.4 autonomous driving, and constructed Korea's first large-scale LiDAR dataset.",
+      "My goal is to make reinforcement learning work on physical systems beyond driving. Simulation and logged experience each fall short on their own, so I work on sim-to-real transfer alongside offline learning from the data that deployed systems already produce, and on judging how far a policy trained either way can be trusted before it reaches hardware."
     ],
     "interests": [
       "Reinforcement Learning for Driving Policies",
@@ -52,7 +52,7 @@
   "news": [
     {
       "date": "Dec 2025",
-      "text": "Attended <strong>NeurIPS 2025</strong> in San Diego, USA.",
+      "text": "Attended NeurIPS 2025 in San Diego, USA.",
       "image": "assets/img/news/neurips-2025.jpg",
       "alt": "NeurIPS 2025 attendee badge at the San Diego Convention Center"
     },
@@ -62,7 +62,7 @@
     },
     {
       "date": "Aug 2025",
-      "text": "Started a new project on a <strong>unified closed-loop simulation framework</strong> for RL-based autonomous driving."
+      "text": "Started a new project on a unified closed-loop simulation framework for RL-based autonomous driving."
     },
     {
       "date": "Jul 2025",
@@ -70,11 +70,19 @@
     },
     {
       "date": "Apr 2025",
-      "text": "Filed three patents on vehicle control and adaptive 3D sensor calibration (KR / US / DE / CN)."
+      "text": "Filed a patent on an apparatus and method for vehicle control (KR / US / DE / CN)."
+    },
+    {
+      "date": "Apr 2025",
+      "text": "Filed a patent on adaptive calibration for autonomous driving (KR / US / CN)."
+    },
+    {
+      "date": "Apr 2025",
+      "text": "Filed a patent on 3D sensor coordinate calibration using a scene flow network (KR / US / CN)."
     },
     {
       "date": "Jul 2024",
-      "text": "Started work on the <strong>end-to-end autonomous planning system</strong>."
+      "text": "Started work on the end-to-end autonomous planning system."
     },
     {
       "date": "Mar 2024",
@@ -83,6 +91,10 @@
     {
       "date": "Aug 2023",
       "text": "Served as a reviewer for <em>Journal of Institute of Control, Robotics and Systems</em>."
+    },
+    {
+      "date": "Feb 2020",
+      "text": "Gave a lecture at Korea Maritime and Ocean University on state estimation with sampled-data fuzzy observers and its application to AHRS."
     }
   ],
   "experience": [
