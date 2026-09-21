@@ -218,13 +218,15 @@ function buildHome() {
     : section('projects', 'Selected Projects', (data.projects || []).map(projectCard).join('\n'));
 
   // A demo is a local clip, a local still, or a third-party video embedded from
-  // its own platform — never a re-hosted copy of someone else's video.
+  // its own platform — never a re-hosted copy of someone else's video. Aspect
+  // ratios run from 1.1:1 to 2.5:1, so everything sits in one fixed frame.
   const demoMedia = (d) => {
-    if (d.youtube)
-      return `<div class="demo-embed"><iframe src="https://www.youtube-nocookie.com/embed/${esc(d.youtube)}" title="${esc(d.title)}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>`;
-    if (/\.(mp4|webm)$/i.test(d.media))
-      return `<video class="demo-media" src="${esc(d.media)}"${d.poster ? ` poster="${esc(d.poster)}"` : ''} autoplay loop muted playsinline preload="metadata" aria-label="${esc(d.title)}"></video>`;
-    return `<img class="demo-media" src="${esc(d.media)}" alt="${esc(d.title)}" loading="lazy">`;
+    const inner = d.youtube
+      ? `<iframe src="https://www.youtube-nocookie.com/embed/${esc(d.youtube)}" title="${esc(d.title)}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`
+      : /\.(mp4|webm)$/i.test(d.media)
+        ? `<video class="demo-media" src="${esc(d.media)}"${d.poster ? ` poster="${esc(d.poster)}"` : ''} autoplay loop muted playsinline preload="metadata" aria-label="${esc(d.title)}"></video>`
+        : `<img class="demo-media" src="${esc(d.media)}" alt="${esc(d.title)}" loading="lazy">`;
+    return `<div class="demo-frame">${inner}</div>`;
   };
 
   const demos = isEmpty(data.demos)
