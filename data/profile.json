@@ -246,6 +246,12 @@
       "poster": "assets/img/demos/hd-map-pointcloud.jpg"
     },
     {
+      "title": "Built a real-time LiDAR feature extraction and tracking pipeline",
+      "project": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception · KITECH, 2018–2020",
+      "media": "assets/img/demos/lidar-feature-extraction.mp4",
+      "poster": "assets/img/demos/lidar-feature-extraction.jpg"
+    },
+    {
       "title": "Built a 3D vehicle shape profiling system",
       "project": "3D Vehicle Shape Generation System for Automated Car Wash · KITECH, 2019–2020",
       "media": "assets/img/demos/vehicle-shape-profiling.jpg"
