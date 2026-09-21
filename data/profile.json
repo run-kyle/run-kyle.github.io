@@ -17,7 +17,7 @@
     "bio": [
       "I build a closed-loop reinforcement learning framework for autonomous driving, as a Senior Research Engineer at <strong>Hyundai Motor Company</strong>.",
       "I have also developed an end-to-end autonomous driving system and ran it on a real vehicle, built a LiDAR perception system for Lv.3 and Lv.4 autonomous driving, and constructed <strong>Korea's first large-scale LiDAR dataset</strong>.",
-      "My goal is to make reinforcement learning work on physical systems beyond driving. Simulation and logged experience each fall short on their own, so I work on <strong>sim-to-real transfer</strong> alongside offline learning from the data that deployed systems already produce, and on judging how far a policy trained either way can be trusted before it reaches hardware."
+      "My goal is to make reinforcement learning practical on physical systems beyond driving. Simulation and logged experience are each incomplete, so I combine <strong>sim-to-real transfer</strong> with offline learning from the data deployed systems already generate. Both leave the same question open. How far can a policy be trusted before it touches hardware?"
     ],
     "interests": [
       "Reinforcement Learning for Driving Policies",
@@ -98,7 +98,7 @@
     },
     {
       "date": "Feb 2020",
-      "text": "Gave an invited talk at Korea Maritime and Ocean University, “State Estimation using Sampled-data Fuzzy Observer and its Application to AHRS.”"
+      "text": "Gave an <strong>invited talk</strong> at Korea Maritime and Ocean University, “State Estimation using Sampled-data Fuzzy Observer and its Application to AHRS.”"
     }
   ],
   "experience": [
