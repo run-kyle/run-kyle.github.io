@@ -123,7 +123,7 @@ h1, h2, h3, h4 { line-height: 1.25; margin: 0; font-weight: 650; letter-spacing:
    which shows up as the header touching both edges on narrow screens. */
 .hero { padding: 56px 22px 6px; display: flex; gap: 32px; align-items: flex-start; }
 .hero-photo {
-  width: 132px; height: 132px; flex: none; border-radius: 50%;
+  width: 156px; height: 156px; flex: none; border-radius: 50%;
   object-fit: cover; border: 1px solid var(--border); box-shadow: var(--shadow);
   background: var(--bg-soft);
 }
@@ -302,7 +302,7 @@ body.lightbox-open { overflow: hidden; }
 /* ---------- Responsive ---------- */
 @media (max-width: 640px) {
   .hero { flex-direction: column; gap: 20px; padding-top: 36px; }
-  .hero-photo { width: 104px; height: 104px; }
+  .hero-photo { width: 124px; height: 124px; }
   .hero-name { font-size: 1.8rem; }
   .hero-name .local { display: block; margin: 4px 0 0; }
   .grid-2 { grid-template-columns: 1fr; }
