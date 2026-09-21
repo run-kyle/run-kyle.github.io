@@ -16,7 +16,7 @@
     "cv": "assets/files/cv.pdf",
     "bio": [
       "I build a closed-loop reinforcement learning framework for autonomous driving, as a Senior Research Engineer at <strong>Hyundai Motor Company</strong>.",
-      "I have also developed an end-to-end autonomous driving system and ran it on a real vehicle, built a LiDAR perception system for Lv.3 and Lv.4 autonomous driving, and constructed <strong>KODAS, Korea's first large-scale LiDAR dataset</strong>.",
+      "I have also developed an end-to-end autonomous driving system and ran it on a real vehicle, built a LiDAR perception system for Lv.3 and Lv.4 autonomous driving, and constructed <strong>KODAS, Korea's first large-scale autonomous driving dataset</strong>.",
       "My goal is to make reinforcement learning practical on physical systems beyond driving. Neither simulation nor recorded experience is enough on its own, so I work on <strong>sim-to-real transfer</strong> alongside learning from the data that deployed systems already generate. Both lead back to the same problem of knowing how far a policy can be trusted before it touches hardware."
     ],
     "interests": [
@@ -210,7 +210,7 @@
       "title": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception",
       "period": "Jun 2018 – May 2020",
       "org": "KITECH",
-      "summary": "Built KODAS, South Korea's first large-scale 128-channel LiDAR dataset for autonomous driving, with over a million labeled objects, automated annotation, and cm-level HD mapping.",
+      "summary": "Built the Korea Dataset for Autonomous Solution (KODAS), the country's first autonomous driving corpus captured with 128-channel LiDAR, with over a million labeled objects, automated annotation, and cm-level HD mapping.",
       "tags": [
         "Dataset",
         "128-ch LiDAR",
@@ -248,7 +248,7 @@
       "media": "assets/img/demos/data-acquisition-vehicle.jpg"
     },
     {
-      "title": "Built Korea's first large-scale 128-channel LiDAR dataset (KODAS)",
+      "title": "Built KODAS, Korea's first autonomous driving dataset on 128-channel LiDAR",
       "project": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception · KITECH, 2018–2020",
       "media": "assets/img/demos/lidar-annotation-viewer.mp4",
       "poster": "assets/img/demos/lidar-annotation-viewer.jpg"
