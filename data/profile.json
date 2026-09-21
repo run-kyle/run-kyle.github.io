@@ -239,11 +239,6 @@
       "media": "assets/img/demos/roboride-pilot-service.jpg"
     },
     {
-      "title": "Built a LiDAR simulator for airborne bathymetric survey",
-      "project": "River Management Technology Using a Drone-Based Survey Platform · KITECH, 2019–2021",
-      "media": "assets/img/demos/drone-lidar-simulator.jpg"
-    },
-    {
       "title": "Built the data acquisition vehicle and its sensor suite",
       "project": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception · KITECH, 2018–2020",
       "media": "assets/img/demos/data-acquisition-vehicle.jpg"
@@ -276,6 +271,11 @@
       "title": "Built a 3D vehicle shape profiling system",
       "project": "3D Vehicle Shape Generation System for Automated Car Wash · KITECH, 2019–2020",
       "media": "assets/img/demos/vehicle-shape-profiling.jpg"
+    },
+    {
+      "title": "Built a LiDAR simulator for airborne bathymetric survey",
+      "project": "River Management Technology Using a Drone-Based Survey Platform · KITECH, 2019–2021",
+      "media": "assets/img/demos/drone-lidar-simulator.jpg"
     }
   ],
   "publications": [
