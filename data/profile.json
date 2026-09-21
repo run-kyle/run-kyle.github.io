@@ -192,6 +192,17 @@
       ]
     },
     {
+      "title": "3D Vehicle Shape Generation System for Automated Car Wash",
+      "period": "Jan 2019 – Dec 2020",
+      "org": "KITECH",
+      "summary": "Developed a sub-2 cm-accuracy multi-LiDAR vehicle-profiling system for unmanned car-wash automation, running in real time on TI embedded hardware.",
+      "tags": [
+        "Multi-LiDAR",
+        "Point Cloud",
+        "TI Embedded"
+      ]
+    },
+    {
       "title": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception",
       "period": "Jun 2018 – May 2020",
       "org": "KITECH",
@@ -204,14 +215,15 @@
       ]
     },
     {
-      "title": "3D Vehicle Shape Generation System for Automated Car Wash",
-      "period": "Jan 2019 – Dec 2020",
-      "org": "KITECH",
-      "summary": "Developed a sub-2 cm-accuracy multi-LiDAR vehicle-profiling system for unmanned car-wash automation, running in real time on TI embedded hardware.",
+      "title": "Vision-IMU Integrated Indoor Navigation System for the Visually Impaired",
+      "period": "Oct 2016 – Sep 2017",
+      "org": "Yonsei University",
+      "summary": "Fused CCTV-based machine learning positioning with smartphone IMU dead-reckoning to keep tracking users through camera blind spots, and built the guidance pipeline around it with a control server, a mobile app, and A*-based safety-aware routing.",
       "tags": [
-        "Multi-LiDAR",
-        "Point Cloud",
-        "TI Embedded"
+        "Sensor Fusion",
+        "Machine Learning",
+        "Indoor Localization",
+        "A* Routing"
       ]
     }
   ],
@@ -378,7 +390,7 @@
     {
       "title": "Apparatus and Method for Processing Trajectory Data",
       "id": "KR 10-2026-0139322",
-      "date": "Jul 2026",
+      "date": "Jul 28, 2026",
       "status": "Application",
       "also": ""
     },
