@@ -240,6 +240,18 @@
       "poster": "assets/img/demos/lidar-annotation-viewer.jpg"
     },
     {
+      "title": "Built a point cloud classification dataset from labeled LiDAR objects",
+      "project": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception · KITECH, 2018–2020",
+      "media": "assets/img/demos/point-cloud-classification.mp4",
+      "poster": "assets/img/demos/point-cloud-classification.jpg"
+    },
+    {
+      "title": "Built an intensity-based road feature extraction pipeline",
+      "project": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception · KITECH, 2018–2020",
+      "media": "assets/img/demos/lidar-intensity-features.mp4",
+      "poster": "assets/img/demos/lidar-intensity-features.jpg"
+    },
+    {
       "title": "Reconstructed HD maps from raw LiDAR sweeps",
       "project": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception · KITECH, 2018–2020",
       "media": "assets/img/demos/hd-map-pointcloud.mp4",
