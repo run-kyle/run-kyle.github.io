@@ -10,6 +10,13 @@
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
+
+// Browsers cache assets/css/style.css and assets/js/main.js by URL, so a
+// deploy that only changes them would not reach returning visitors. Append a
+// short content hash to bust that.
+const stamp = (rel) =>
+  `${rel}?v=${crypto.createHash('md5').update(fs.readFileSync(path.join(ROOT, rel))).digest('hex').slice(0, 8)}`;
 
 const ROOT = __dirname;
 const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'profile.json'), 'utf8'));
@@ -73,7 +80,7 @@ ${extraMeta}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="${stamp('assets/css/style.css')}">
 <script>
   // Set the theme before first paint to avoid a flash.
   (function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
@@ -107,7 +114,7 @@ function footer() {
   <div>© ${year} ${esc(data.profile.name)} · ${esc(data.profile.location)}</div>
   <div><a href="mailto:${esc(data.profile.email)}">${esc(data.profile.email)}</a></div>
 </footer>
-<script src="assets/js/main.js"></script>
+<script src="${stamp('assets/js/main.js')}"></script>
 </body>
 </html>`;
 }

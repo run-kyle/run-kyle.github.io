@@ -258,6 +258,40 @@ details.more > summary::after { content: "▾"; font-size: .7rem; transition: tr
 details.more[open] > summary::after { transform: rotate(180deg); }
 details.more > summary:hover { color: var(--accent); }
 
+/* ---------- Lightbox ---------- */
+.zoomable { cursor: zoom-in; }
+.zoomable:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* Visible whenever it is not hidden, so it can never get stuck transparent.
+   The fade is an animation that replays each time display leaves none.
+   The [hidden] rule is required: display:flex would otherwise beat the user
+   agent's [hidden] rule and leave an invisible overlay eating every click. */
+.lightbox {
+  position: fixed; inset: 0; z-index: 100;
+  background: rgba(8, 10, 14, .93);
+  display: flex; align-items: center; justify-content: center;
+  padding: 40px 24px;
+  opacity: 1;
+  animation: lightbox-in .16s ease;
+}
+.lightbox[hidden] { display: none; }
+@keyframes lightbox-in { from { opacity: 0 } to { opacity: 1 } }
+.lightbox img, .lightbox video {
+  max-width: 100%; max-height: 100%; width: auto; height: auto;
+  display: block; border-radius: 8px; box-shadow: 0 12px 60px rgba(0, 0, 0, .65);
+}
+.lightbox-close {
+  position: absolute; top: 16px; right: 18px; width: 40px; height: 40px;
+  display: flex; align-items: center; justify-content: center;
+  border: 1px solid rgba(255, 255, 255, .28); border-radius: 50%;
+  background: rgba(0, 0, 0, .45); color: #fff;
+  font-size: 22px; line-height: 1; cursor: pointer;
+}
+.lightbox-close:hover { background: rgba(0, 0, 0, .75); border-color: rgba(255, 255, 255, .5); }
+body.lightbox-open { overflow: hidden; }
+
+@media (max-width: 640px) { .lightbox { padding: 52px 12px 24px; } }
+
 /* ---------- Footer ---------- */
 .footer {
   margin-top: 56px; border-top: 1px solid var(--border); padding: 24px 0 40px;
