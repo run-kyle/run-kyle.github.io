@@ -15,9 +15,9 @@
     "email": "kyle13@yonsei.ac.kr",
     "cv": "assets/files/cv.pdf",
     "bio": [
-      "I am a Senior Research Engineer in the Autonomous Driving Development division at <strong>Hyundai Motor Company</strong>, with 7+ years of experience spanning robotics research and production-grade autonomous platforms.",
-      "My work centers on <strong>reinforcement learning</strong>, <strong>Transformer-based end-to-end planning</strong>, and <strong>high-reliability decision-making</strong> for self-driving vehicles. I architect closed-loop simulation environments, build LiDAR-based perception and 3D reconstruction systems, and take algorithms all the way onto real vehicles.",
-      "Previously, I built South Korea's first large-scale, high-precision LiDAR dataset for autonomous driving (1M+ labeled objects) at <strong>KITECH</strong>, and designed LiDAR simulation frameworks for sensor development, HD mapping, and high-fidelity 3D scanning. My academic foundation is in T-S fuzzy-based robust control and state estimation from <strong>Yonsei University</strong>."
+      "I build a closed-loop reinforcement learning framework for autonomous driving, as a Senior Research Engineer at <strong>Hyundai Motor Company</strong>.",
+      "I have also developed an end-to-end autonomous driving system and ran it on a real vehicle, built a LiDAR perception system for Lv.3 and Lv.4 autonomous driving, and constructed <strong>Korea's first large-scale LiDAR dataset</strong>.",
+      "My goal is to make reinforcement learning work on physical systems beyond driving. Simulation and logged experience each fall short on their own, so I work on <strong>sim-to-real transfer</strong> alongside <strong>offline learning</strong> from the data that deployed systems already produce, and on judging how far a policy trained either way can be trusted before it reaches hardware."
     ],
     "interests": [
       "Reinforcement Learning for Driving Policies",
@@ -118,7 +118,7 @@
       "title": "Unified Closed-Loop Simulation Framework for RL-Based Autonomous Driving",
       "period": "Aug 2025 – Present",
       "org": "Hyundai Motor Company",
-      "summary": "Built a closed-loop RL training stack — 3DGS photorealistic environments, rule-driven reward modeling, and World-Model synthetic data — and deployed the resulting driving policies on physical vehicles.",
+      "summary": "Built a closed-loop RL training stack combining 3DGS photorealistic environments, rule-driven reward modeling, and World-Model synthetic data, then deployed the resulting driving policies on physical vehicles.",
       "tags": [
         "Reinforcement Learning",
         "3DGS",
@@ -141,13 +141,11 @@
       "title": "Lv.3 / Lv.4 Autonomous Driving Perception Systems (HDP & Robo-Services)",
       "period": "Mar 2022 – Jun 2024",
       "org": "Hyundai Motor Company",
-      "summary": "Led the company's LiDAR perception stack — sensor evaluation, clustering, localization, and online calibration — validated on Genesis G90, Kia EV9, and the Robo-services fleet.",
+      "summary": "Led the company's LiDAR perception stack, covering sensor evaluation, clustering, localization, and online calibration, validated on Lv.3 and Lv.4 platforms.",
       "tags": [
         "LiDAR Perception",
         "CUDA",
-        "Calibration",
-        "Genesis G90",
-        "Kia EV9"
+        "Calibration"
       ]
     },
     {
@@ -165,7 +163,7 @@
       "title": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception",
       "period": "Jun 2018 – May 2020",
       "org": "KITECH",
-      "summary": "Built South Korea's first large-scale 128-channel LiDAR dataset for autonomous driving — over a million labeled objects, automated annotation, and cm-level HD mapping.",
+      "summary": "Built South Korea's first large-scale 128-channel LiDAR dataset for autonomous driving, with over a million labeled objects, automated annotation, and cm-level HD mapping.",
       "tags": [
         "Dataset",
         "128-ch LiDAR",
