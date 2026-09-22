@@ -154,7 +154,7 @@
       "title": "Unified Closed-Loop Simulation Framework for RL-Based Autonomous Driving",
       "period": "Aug 2025 – Present",
       "org": "Hyundai Motor Company",
-      "summary": "Built a closed-loop RL training stack combining 3DGS photorealistic environments, rule-driven reward modeling, and World-Model synthetic data, then deployed the resulting driving policies on physical vehicles.",
+      "summary": "Building a closed-loop RL training framework across several environment representations, from 3DGS photorealistic scenes and graphics-based simulation to object-level box worlds, with rule-driven reward modeling and World-Model synthetic data.",
       "tags": [
         "Reinforcement Learning",
         "3DGS",
@@ -166,7 +166,7 @@
       "title": "End-to-End Autonomous Planning System",
       "period": "Jul 2024 – Mar 2026",
       "org": "Hyundai Motor Company",
-      "summary": "Led development, embedded deployment, and real-world validation of a Transformer-based end-to-end planner, including its first-ever on-vehicle control.",
+      "summary": "Co-developed a Transformer-based end-to-end planner and led its embedded deployment and real-vehicle validation, including the company's first on-vehicle run of such a planner.",
       "tags": [
         "Transformer",
         "E2E Planning",
@@ -177,7 +177,7 @@
       "title": "Lv.3 / Lv.4 Autonomous Driving Perception Systems (HDP & Robo-Services)",
       "period": "Mar 2022 – Jun 2024",
       "org": "Hyundai Motor Company",
-      "summary": "Led the company's LiDAR perception stack, covering sensor evaluation, clustering, localization, and online calibration, validated on Lv.3 and Lv.4 platforms.",
+      "summary": "Shaped the software architecture of the LiDAR perception stack for Lv.3 and Lv.4 platforms, spanning clustering, localization, and online calibration, and led sensor evaluation and point cloud pre-processing.",
       "tags": [
         "LiDAR Perception",
         "CUDA",
