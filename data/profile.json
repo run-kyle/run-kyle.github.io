@@ -138,7 +138,7 @@
       "location": "Seoul, South Korea",
       "period": "Feb 2018",
       "notes": [
-        "Thesis: \"State Estimation using Sampled-data Fuzzy Observer and its Application to AHRS\""
+        "Thesis: \"State Estimation Using the Sampled-data Fuzzy Observer and Its Application to the AHRS\""
       ]
     },
     {
@@ -287,25 +287,24 @@
       "group": "Journal Articles",
       "items": [
         {
-          "authors": "Hyeon Jun Lim, Seung Ho Baeg*",
-          "title": "Calibration Technique between 2D LiDAR Sensor and Linear Encoder using Dihedral Angle",
-          "venue": "Journal of Information and Control (KCI)",
-          "year": "2020",
-          "url": "",
-          "image": "assets/img/pubs/dihedral-calibration.jpg"
-        },
-        {
-          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
-          "title": "Relaxed Stabilization Conditions for Discrete T-S Fuzzy Models under Imperfect Premise Matching",
-          "venue": "Journal of Korean Institute of Intelligent Systems (KCI, IF 0.47)",
-          "year": "2017",
+          "authors": "Younghun Byeon, Eunju Kim, Hyeon Jun Lim, Han Sol Kim",
+          "title": "Development of a Faster R-CNN-based Marine Debris Detection Model for an Embedded System",
+          "venue": "Journal of Institute of Control, Robotics and Systems, 27(12), 1038–1043 (KCI)",
+          "year": "2021",
           "url": ""
         },
         {
-          "authors": "Hyeon Jun Lim, Chang Gil Lee, Jin Bae Park, and Young Hoon Joo*",
-          "title": "Design of Output-feedback Controller for Discrete T-S Fuzzy Models under Imperfect Premise Matching",
-          "venue": "Journal of Information and Control (KCI)",
-          "year": "2016",
+          "authors": "Younghun Byeon, Minjae Kang, Hyeon Jun Lim, Han Sol Kim",
+          "title": "Development of a Three-Dimensional Indoor Position Estimation Algorithm for a Drone Using Stereo Vision and YOLOv3",
+          "venue": "Journal of Institute of Control, Robotics and Systems, 27(11), 845–850 (KCI)",
+          "year": "2021",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Young Hoon Joo, Jin Bae Park",
+          "title": "A Relaxed Stabilization Condition for Discrete T-S Fuzzy Model under Imperfect Premise Matching",
+          "venue": "Journal of Korean Institute of Intelligent Systems, 27(1), 59–64 (KCI, IF 0.47)",
+          "year": "2017",
           "url": ""
         }
       ]
@@ -314,30 +313,30 @@
       "group": "International Conferences",
       "items": [
         {
-          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "authors": "Hyeon Jun Lim, Jin Bae Park, Young Hoon Joo",
           "title": "Fuzzy Observer Design and Its Experimental Validation Using the Fuzzy Lyapunov Function",
-          "venue": "17th International Conference on Control, Automation and Systems (ICCAS)",
+          "venue": "17th International Conference on Control, Automation and Systems (ICCAS), Jeju, Korea",
           "year": "2017",
           "url": ""
         },
         {
-          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "authors": "Hyeon Jun Lim, Jin Bae Park, Young Hoon Joo",
           "title": "Fuzzy Lyapunov Function-based H∞ Fuzzy Filter Design for Sampled-data Systems under Imperfect Premise Matching",
-          "venue": "SICE Annual Conference",
+          "venue": "SICE Annual Conference, Kanazawa, Japan",
           "year": "2017",
           "url": ""
         },
         {
-          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "authors": "Hyeon Jun Lim, Jin Bae Park, Young Hoon Joo",
           "title": "The Stabilization Condition of Continuous Affine Fuzzy Systems under Imperfect Premise Matching",
-          "venue": "International Conference on Control, Automation and Systems (ICCAS)",
+          "venue": "16th International Conference on Control, Automation and Systems (ICCAS), Gyeongju, Korea",
           "year": "2016",
           "url": ""
         },
         {
-          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "authors": "Hyeon Jun Lim, Jin Bae Park, Young Hoon Joo",
           "title": "The Fuzzy Lyapunov Function-based Relaxed Stabilization of Output-feedback Fuzzy Control Systems under Imperfect Premise Matching",
-          "venue": "International Conference on Fuzzy Theory and Its Applications (iFuzzy)",
+          "venue": "International Conference on Fuzzy Theory and Its Applications (iFuzzy), Taichung, Taiwan",
           "year": "2016",
           "url": ""
         }
@@ -347,65 +346,80 @@
       "group": "Domestic Conferences",
       "items": [
         {
-          "authors": "Hyeon Jun Lim, Seung Ho Baeg*",
-          "title": "Improving Global Mapping Accuracy of Point Cloud Data using SOR Filter",
-          "venue": "16th Korea Robotics Society Annual Conference (KRoC)",
+          "authors": "Hyeon Jun Lim, Seungho Baeg",
+          "title": "An Improvement Method for Global Mapping of Point Cloud Data Through the Statistical Outlier Removal",
+          "venue": "16th Korea Robotics Society Annual Conference (KRoC), Pyeongchang, Korea",
           "year": "2021",
           "url": ""
         },
         {
-          "authors": "Hyeon Jun Lim, Seung Ho Baeg*",
-          "title": "Time Compensation Technique of Scanning LiDAR Sensor using Hermite Interpolation",
-          "venue": "KIIS Autumn Conference",
+          "authors": "Hyeon Jun Lim, Seungho Baeg",
+          "title": "A Time Compensation Method for a Scanning LiDAR Sensor via Hermite Interpolation",
+          "venue": "KIIS Autumn Conference, 30(2)",
           "year": "2020",
           "url": ""
         },
         {
-          "authors": "Hyeon Jun Lim, Seung Ho Baeg, Jae Hak Kim, Jae Sung Jeong, and Chang Seong Kim",
-          "title": "Analysis of Design Parameters and Performance Simulation of LiDAR Sensors for River Measurement",
-          "venue": "KSCE Convention",
+          "authors": "Hyeon Jun Lim, Seungho Baeg",
+          "title": "A Calibration Method for a 2D LiDAR Sensor and a Linear Encoder System Using Dihedral Angle",
+          "venue": "KIEE Conference on Information and Control Systems (CICS), Jeju, Korea",
+          "year": "2020",
+          "url": "",
+          "image": "assets/img/pubs/dihedral-calibration.jpg"
+        },
+        {
+          "authors": "Hyeon Jun Lim, Seungho Baeg, Jae-Hak Kim, Jae-Sung Jeong, Changsung Kim",
+          "title": "Analysis of Design Parameters and Performance Simulation for a Bathymetric LiDAR Sensor",
+          "venue": "KSCE Convention, Drone Platform-based River Survey Special Session",
           "year": "2020",
           "url": ""
         },
         {
-          "authors": "Seung Ho Baeg, Beom Jin Hong, Su Hyun Na, and Hyeon Jun Lim",
-          "title": "Korean Dataset Construction System for Autonomous Driving Technology Development",
-          "venue": "KSAE Annual Conference",
+          "authors": "Seungho Baeg, Beomjin Hong, Suhyun Na, Hyeon Jun Lim",
+          "title": "Korea Dataset for Autonomous Solution and the Acquisition System",
+          "venue": "KSAE Autumn Conference",
           "year": "2018",
           "url": ""
         },
         {
-          "authors": "Hyeon Jun Lim, Jin Bae Park, Taek Kyu Song, and Young Hoon Joo*",
-          "title": "Relaxed Stabilization Conditions for Affine T-S Fuzzy Systems Using Extended Fuzzy Lyapunov Function: Guaranteed Cost Approach",
-          "venue": "KIEE Summer Conference",
+          "authors": "Hyeon Jun Lim, Jin Bae Park, Young Hoon Joo",
+          "title": "Fuzzy Output-feedback Controller Design for T-S Fuzzy Models based on Improved Fuzzy Lyapunov Functions under Imperfect Premise Matching",
+          "venue": "ICROS Annual Conference, Sokcho, Korea",
           "year": "2017",
           "url": ""
         },
         {
-          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
-          "title": "Design of Relaxed Output-feedback Controller for T-S Fuzzy Models under Imperfect Premise Matching",
-          "venue": "ICROS Annual Conference",
-          "year": "2017",
-          "url": ""
-        },
-        {
-          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
+          "authors": "Hyeon Jun Lim, Jin Bae Park, Young Hoon Joo",
           "title": "Design of Output-feedback Controller for T-S Fuzzy Models using Fuzzy Lyapunov Function: Guaranteed Cost Approach",
-          "venue": "KISS Spring Conference",
+          "venue": "KIIS Spring Conference, 27(1)",
           "year": "2017",
           "url": ""
         },
         {
-          "authors": "Hyeon Jun Lim, Jin Bae Park, and Young Hoon Joo*",
-          "title": "Relaxed Stabilization Conditions for Discrete T-S Fuzzy Models under Imperfect Premise Matching",
-          "venue": "KIIS Autumn Conference",
+          "authors": "Hyeon Jun Lim, Jin Bae Park, Taek Gyu Song, Young Hoon Joo",
+          "title": "The Relaxed Stabilization Condition for the Affine T-S Fuzzy Systems via Improved Fuzzy Lyapunov Functions: Guaranteed Cost Approach",
+          "venue": "KIEE Summer Conference, 48th",
+          "year": "2017",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Chang-Gil Lee, Jin Bae Park, Young Hoon Joo",
+          "title": "Fuzzy Output-feedback Control Design for T-S Fuzzy Models under Imperfect Premise Matching",
+          "venue": "KIEE Conference on Information and Control Systems (CICS)",
           "year": "2016",
           "url": ""
         },
         {
-          "authors": "Hyeon Jun Lim, Han Sol Kim, Jin Bae Park, Myoung Hwan Tak, and Young Hoon Joo*",
-          "title": "Stabilization of T-S Fuzzy Systems Using Line-integral Fuzzy Lyapunov Function",
-          "venue": "KISS Spring Conference",
+          "authors": "Hyeon Jun Lim, Hal Sol Kim, Jin Bae Park, Myoung Hwan Tak, Young Hoon Joo",
+          "title": "Stabilization for the T-S Fuzzy Systems Using the Line-integral Fuzzy Lyapunov Function",
+          "venue": "KIIS Spring Conference, 26(1)",
+          "year": "2016",
+          "url": ""
+        },
+        {
+          "authors": "Hyeon Jun Lim, Jin Bae Park, Young Hoon Joo",
+          "title": "Relaxed Stabilization Conditions for Discrete T-S Fuzzy Models under Imperfect Premise Matching",
+          "venue": "KIIS Autumn Conference (Best Paper Award)",
           "year": "2016",
           "url": ""
         }
@@ -416,42 +430,49 @@
     {
       "title": "Apparatus and Method for Processing Trajectory Data",
       "id": "KR 10-2026-0139322",
-      "date": "Jul 28, 2026",
+      "date": "Filed Jul 28, 2026",
       "status": "Application",
       "also": ""
     },
     {
       "title": "System For Processing Data Required For Object Detection Based On Artificial Intelligence and Multiple Autonomous Driving Sensors and Method Implementing The Same",
       "id": "KR 10-2025-0090242",
-      "date": "Jul 4, 2025",
+      "date": "Filed Jul 4, 2025",
       "status": "Application",
       "also": "US 19/415,494 · CN 202511840140.4"
     },
     {
       "title": "Apparatus For Controlling Vehicle and Method Thereof",
       "id": "KR 10-2025-0044855",
-      "date": "Apr 7, 2025",
+      "date": "Filed Apr 7, 2025",
       "status": "Application",
-      "also": "US 19/391,095 · DE 102025146420.0 · CN 202511797806.2"
-    },
-    {
-      "title": "System and Method For Adaptive Calibration For Autonomous Driving",
-      "id": "KR 10-2025-0042965",
-      "date": "Apr 2, 2025",
-      "status": "Application",
-      "also": "US 19/409,994 · CN 202511849891.2"
+      "also": "US 19/391,095 · DE 10 2025 146 420.0 · CN 202511797806.2"
     },
     {
       "title": "System and Method For Calibrating 3D Sensor Coordinate Based On Scene Flow Network",
       "id": "KR 10-2025-0042966",
-      "date": "Apr 2, 2025",
+      "date": "Filed Apr 2, 2025",
       "status": "Application",
       "also": "US 19/406,040 · CN 202511849897.X"
     },
     {
-      "title": "3D shape data acquisition method for automatic car wash equipment and vehicle shape data acquisition system",
-      "id": "KR 10-2504548-B1",
-      "date": "2023",
+      "title": "System and Method For Adaptive Calibration For Autonomous Driving",
+      "id": "KR 10-2025-0042965",
+      "date": "Filed Apr 2, 2025",
+      "status": "Application",
+      "also": "US 19/409,994 · CN 202511849891.2"
+    },
+    {
+      "title": "3D Vehicle Shape Data Acquisition Method and System for Automated Car Wash Equipment",
+      "id": "KR 10-2504548",
+      "date": "Filed Dec 7, 2020 · Registered Feb 23, 2023",
+      "status": "Registered",
+      "also": ""
+    },
+    {
+      "title": "3D Vehicle Shape Data Acquisition Method and System for Automated Car Wash Equipment, Rotating LiDAR Configuration",
+      "id": "KR 10-2504547",
+      "date": "Filed Dec 7, 2020 · Registered Feb 23, 2023",
       "status": "Registered",
       "also": ""
     }
