@@ -217,7 +217,7 @@ h1, h2, h3, h4 { line-height: 1.25; margin: 0; font-weight: 650; letter-spacing:
 /* Figures here are light line art; the tile keeps a white ground in both
    themes so the strokes stay visible. */
 .pub-thumb {
-  flex: none; width: 140px; height: 72px; object-fit: contain; padding: 3px;
+  flex: none; width: 140px; height: 88px; object-fit: contain; padding: 3px;
   border-radius: 6px; border: 1px solid var(--border); background: #fff;
 }
 @media (max-width: 640px) { .pub-thumb { display: none; } }
