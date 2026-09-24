@@ -15,8 +15,8 @@
     "email": "kyle13@yonsei.ac.kr",
     "cv": "assets/files/cv.pdf",
     "bio": [
-      "I build a closed-loop reinforcement learning framework for autonomous driving, as a Senior Research Engineer at <strong>Hyundai Motor Company</strong>.",
-      "I have also developed an end-to-end autonomous driving system and ran it on a real vehicle, built a LiDAR perception system for Lv.3 and Lv.4 autonomous driving, and constructed <strong>KODAS, Korea's first large-scale autonomous driving dataset</strong>.",
+      "I build a <strong>closed-loop reinforcement learning framework for autonomous driving</strong>, as a Senior Research Engineer at Hyundai Motor Company.",
+      "I have also developed an <strong>end-to-end autonomous driving system</strong> and ran it on a real vehicle, built a <strong>LiDAR perception system for Lv.3 and Lv.4 autonomous driving</strong>, and constructed <strong>KODAS, Korea's first large-scale autonomous driving dataset</strong>.",
       "My goal is to make reinforcement learning practical on physical systems beyond driving. Simulation alone is not enough, and neither is real-world data. I work on <strong>sim-to-real transfer</strong>, and on learning from what a deployed system logs in normal use. The hard part either way is deciding how much to trust a policy before it controls a real system."
     ],
     "interests": [
