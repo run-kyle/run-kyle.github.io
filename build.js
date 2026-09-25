@@ -91,7 +91,7 @@ ${extraMeta}
 function nav(page) {
   const links =
     page === 'home'
-      ? `<a href="#projects">Projects</a><a href="#demos">Demos</a><a href="publications.html">Publications</a><a href="${esc(data.profile.cv)}">CV</a>`
+      ? `<a href="#demos">Demos</a><a href="#projects">Projects</a><a href="publications.html">Publications</a><a href="${esc(data.profile.cv)}">CV</a>`
       : `<a href="index.html">Home</a><a href="#publications">Papers</a><a href="#patents">Patents</a><a href="${esc(data.profile.cv)}">CV</a>`;
   return `
 <nav class="nav">
@@ -297,10 +297,10 @@ function buildHome() {
     '<main class="wrap">',
     about,
     news,
+    demos,
+    projects,
     experience,
     education,
-    projects,
-    demos,
     skills,
     press,
     more,
