@@ -53,7 +53,7 @@ out.append(r'  \resumeSubHeadingListEnd')
 
 out += ['', r'\section{Software Copyrights}', r'  \resumeSubHeadingListStart']
 for s in data['software_copyrights']:
-    out.append(r'    \resumeItem{' + authors(s['authors']) + r', ``' + tex(s['title'])
+    out.append(r'    \resumeItem{``' + tex(s['title'])
                + r",'' Korea Copyright Commission, " + tex(s['id']) + ', '
                + tex(s['date']) + r'.}')
 out.append(r'  \resumeSubHeadingListEnd')
@@ -73,13 +73,13 @@ def block(title, rows):
 def line(left, right):
     return r'    \resumeLine{%s}{%s}' % (left, right)
 
-block('Awards and Honors', [
-    line(r'\textbf{%s}, %s' % (tex(a['title']), tex(a['org'])), tex(a['date']))
-    for a in extra['awards']])
-
 block('Invited Talks', [
     line("``" + tex(t['title']) + ",'' " + tex(t['venue']), tex(t['date']))
     for t in extra['talks']])
+
+block('Awards and Honors', [
+    line(r'\textbf{%s}, %s' % (tex(a['title']), tex(a['org'])), tex(a['date']))
+    for a in extra['awards']])
 
 block('Teaching', [
     line(r'%s, %s' % (tex(t['title']), tex(t['org'])), tex(t['period']))
