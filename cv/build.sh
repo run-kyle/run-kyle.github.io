@@ -12,4 +12,6 @@ for i in 1 2; do
   fi
 done
 rm -f cv.aux cv.log cv.out
-echo "cv.pdf built"
+# The site serves this same file; keep the copy from falling behind.
+cp cv.pdf ../assets/files/cv.pdf
+echo "cv.pdf built and copied to assets/files/"
