@@ -170,13 +170,19 @@ function buildHome() {
     : section(
         'news',
         'News',
-        `<ul class="news">${data.news
-          .map(
-            (n) => `<li><span class="date">${esc(n.date)}</span><span class="text">${rich(n.text)}</span>${
-              n.image ? `<img class="news-thumb" src="${esc(n.image)}" alt="${esc(n.alt || '')}" loading="lazy">` : ''
-            }</li>`
-          )
-          .join('\n')}</ul>`
+        (() => {
+          const row = (n) => `<li><span class="date">${esc(n.date)}</span><span class="text">${rich(n.text)}</span>${
+            n.image ? `<img class="news-thumb" src="${esc(n.image)}" alt="${esc(n.alt || '')}" loading="lazy">` : ''
+          }</li>`;
+          const year = (n) => parseInt((n.date.match(/\d{4}/) || ['0'])[0], 10);
+          const recent = data.news.filter((n) => year(n) >= 2025);
+          const older = data.news.filter((n) => year(n) < 2025);
+          return `<ul class="news">${recent.map(row).join('\n')}</ul>` +
+            (older.length
+              ? `<details class="more"><summary>Show ${older.length} earlier items</summary>` +
+                `<ul class="news" style="margin-top:6px">${older.map(row).join('\n')}</ul></details>`
+              : '');
+        })()
       );
 
   const experience = isEmpty(data.experience)
@@ -297,10 +303,10 @@ function buildHome() {
     '<main class="wrap">',
     about,
     news,
-    demos,
-    projects,
     experience,
     education,
+    demos,
+    projects,
     skills,
     press,
     more,
