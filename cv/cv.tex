@@ -109,6 +109,15 @@
   {} & Mobile: (+82) 10-2230-3765
 \end{tabular*}
 
+%-----------RESEARCH INTERESTS-----------------
+\section{Research Interests}
+  \resumeSubHeadingListStart
+    \resumeItem{My goal is to develop scalable reinforcement learning methods and frameworks for
+      real-world autonomous systems, closing the gap between learning in simulation and reliable
+      operation. My interests span sim-to-real transfer, closed-loop evaluation, learning from logged
+      operational data, end-to-end planning, and LiDAR-based perception and 3D reconstruction.}
+  \resumeSubHeadingListEnd
+
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
@@ -163,33 +172,29 @@
       {Unified Closed-Loop Simulation Framework for Reinforcement Learning-Based Autonomous Driving}
       {Aug. 2025 -- Present}
       \resumeItemListStart
-        \resumeItem{Architecting a high-fidelity closed-loop simulation stack across several environment
-          representations, from 3DGS photorealistic scenes and graphics-based simulation to object-level
-          box worlds, with rule-driven reward modeling and World-Model-powered synthetic data generation,
-          to enable reactive long-tail scenario evaluation and robust Sim-to-Real generalization.}
-        \resumeItem{Optimizing real-world driving policies by integrating online and offline RL paradigms
-          and designing specialized neural layers for transfer.}
+        \resumeItem{Building a closed-loop RL training framework across 3DGS photorealistic scenes,
+          graphics-based simulation and object-level box worlds, with rule-driven reward modeling and
+          World-Model synthetic data.}
+        \resumeItem{Integrating online and offline RL with specialized transfer layers to optimize
+          driving policies.}
       \resumeItemListEnd
 
     \resumeProject
       {End-to-End Autonomous Planning System}{Jul. 2024 -- Mar. 2026}
       \resumeItemListStart
-        \resumeItem{Co-developed a Transformer-based autonomous-driving planner and led its embedded
-          deployment and real-vehicle validation, including the company's first on-vehicle run of such a
-          planner. Built a unified training and inference framework, architected closed-loop evaluation
-          and long-tail robustness analysis with high-fidelity synthetic data, and accelerated iteration
-          through custom real-time visualization and debugging tools used across diverse real-vehicle tests.}
+        \resumeItem{Co-developed a Transformer-based planner and led its embedded deployment and
+          real-vehicle validation, including the company's first on-vehicle run.}
+        \resumeItem{Built the training and inference framework and closed-loop evaluation with
+          high-fidelity synthetic data.}
       \resumeItemListEnd
 
     \resumeProject
       {Lv.3 and Lv.4 Autonomous Driving Perception Systems (HDP \& Robo-Services)}{Mar. 2022 -- Jun. 2024}
       \resumeItemListStart
-        \resumeItem{Shaped the software architecture of the company's LiDAR perception stack and led
-          sensor evaluation and point cloud pre-processing, establishing the first systematic
-          sensor-evaluation framework and benchmarking 10+ vendors. Contributed core parsing, filtering,
-          fault-detection, clustering, localization, and calibration technologies, including online
-          optical-flow calibration, with CUDA-optimized embedded performance, validated across Lv.3 and
-          Lv.4 platforms.}
+        \resumeItem{Shaped the software architecture of the LiDAR perception stack and led sensor
+          evaluation and pre-processing, benchmarking 10+ vendors.}
+        \resumeItem{Contributed clustering, localization and online calibration with CUDA-optimized
+          embedded performance, validated on Lv.3 and Lv.4 platforms.}
       \resumeItemListEnd
 
     \resumeProject
@@ -197,33 +202,25 @@
       {Jun. 2018 -- May 2020}
       \resumeItemListStart
         \resumeItem{Built the Korea Dataset for Autonomous Solution (KODAS), the country's first
-          large-scale, high-precision LiDAR dataset for autonomous driving, constructing a million-label
-          128-channel corpus with automated annotation (90\% time reduction), long-tail extreme-condition
-          captures, cm-level HD mapping with custom tooling (LAS converter, point-wise sync, SOR
-          filtering, rolling-shutter correction), and a full-stack calibrated sensor-logging platform.}
-        \resumeItem{Advanced 3D perception fidelity and validation rigor by boosting Z-axis accuracy from
-          10 cm to 1 cm via global ground-fitting, performing comprehensive multi-sensor calibration, and
-          benchmarking SOTA deep-learning models to confirm real-world applicability and robustness of
-          the dataset.}
+          large-scale 128-channel LiDAR dataset for autonomous driving, with automated annotation
+          (90\% time reduction) and cm-level HD mapping.}
+        \resumeItem{Raised Z-axis accuracy from 10 cm to 1 cm via global ground-fitting and benchmarked
+          SOTA models on the dataset.}
       \resumeItemListEnd
 
     \resumeProject
       {River Management Technology Using a Drone-Based Platform for River Investigation}
       {Jun. 2019 -- Jun. 2021}
       \resumeItemListStart
-        \resumeItem{Developed a high-fidelity LiDAR simulation and analysis framework to derive optimal
-          hardware specifications, validate dual-wavelength bathymetric sensing performance, and translate
-          point-cloud-based error modeling into actionable embedded-system requirements for high-accuracy
-          river and subsurface mapping.}
+        \resumeItem{Developed a LiDAR simulation framework to derive hardware specifications and
+          validate dual-wavelength bathymetric sensing for river and subsurface mapping.}
       \resumeItemListEnd
 
     \resumeProject
       {3D Vehicle Shape Generation System for Automated Car Wash}{Jan. 2019 -- Dec. 2020}
       \resumeItemListStart
-        \resumeItem{Developed a fast, sub-2 cm-accuracy 3D vehicle-profiling system for unmanned car-wash
-          automation, integrating custom multi-LiDAR sensing, fused point-cloud reconstruction, and
-          real-time TI-embedded processing to ensure reliable geometry extraction and collision-free
-          operation.}
+        \resumeItem{Developed a sub-2 cm multi-LiDAR vehicle-profiling system for unmanned car-wash
+          automation, running in real time on TI embedded hardware.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
