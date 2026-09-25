@@ -98,7 +98,7 @@
     },
     {
       "date": "Jun 2020",
-      "text": "Released <strong>KODAS</strong>, the 128-channel LiDAR dataset, to the public."
+      "text": "Released <strong>KODAS</strong>, the 128-channel LiDAR dataset for autonomous driving, to the public."
     },
     {
       "date": "Feb 2020",
@@ -416,7 +416,7 @@
           "url": ""
         },
         {
-          "authors": "Hyeon Jun Lim, Hal Sol Kim, Jin Bae Park, Myoung Hwan Tak, Young Hoon Joo",
+          "authors": "Hyeon Jun Lim, Han Sol Kim, Jin Bae Park, Myoung Hwan Tak, Young Hoon Joo",
           "title": "Stabilization for the T-S Fuzzy Systems Using the Line-integral Fuzzy Lyapunov Function",
           "venue": "KIIS Spring Conference, 26(1)",
           "year": "2016",
