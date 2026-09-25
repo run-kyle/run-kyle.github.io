@@ -219,9 +219,21 @@ function buildHome() {
     ${isEmpty(pr.tags) ? '' : `<div class="tags">${pr.tags.map((t) => `<span class="tag tag--plain">${esc(t)}</span>`).join('')}</div>`}
   </article>`;
 
+  // The three most recent lead; the rest fold away so the section does not
+  // push the demos far down the page.
+  const shownProjects = (data.projects || []).slice(0, 3);
+  const restProjects = (data.projects || []).slice(3);
   const projects = isEmpty(data.projects)
     ? ''
-    : section('projects', 'Selected Projects', (data.projects || []).map(projectCard).join('\n'));
+    : section(
+        'projects',
+        'Selected Projects',
+        shownProjects.map(projectCard).join('\n') +
+          (restProjects.length
+            ? `<details class="more"><summary>Show ${restProjects.length} earlier projects</summary>` +
+              `<div style="margin-top:14px">${restProjects.map(projectCard).join('\n')}</div></details>`
+            : '')
+      );
 
   // A demo is a local clip, a local still, or a third-party video embedded from
   // its own platform — never a re-hosted copy of someone else's video. Aspect
