@@ -486,52 +486,52 @@
   "software_copyrights": [
     {
       "title": "Laser Beam Characteristics Evaluation Program",
-      "authors": "Hyeon Jun Lim, Seung Ho Baeg",
+      "authors": "Hyeon Jun Lim, Seungho Baeg",
       "id": "C-2021-008734",
       "date": "Feb 2021",
       "image": "assets/img/sw/laser-beam-evaluation.jpg"
     },
     {
       "title": "LiDAR Sensor Data Viewer Program",
-      "authors": "Hyeon Jun Lim, Seung Ho Baeg",
+      "authors": "Hyeon Jun Lim, Seungho Baeg",
       "id": "C-2020-052146",
       "date": "Dec 2020",
       "image": "assets/img/sw/lidar-data-viewer.jpg"
     },
     {
       "title": "LAS File Conversion Program",
-      "authors": "Hyeon Jun Lim, Seung Ho Baeg",
+      "authors": "Hyeon Jun Lim, Seungho Baeg",
       "id": "C-2020-052137",
       "date": "Dec 2020",
       "image": "assets/img/sw/las-converter.jpg"
     },
     {
       "title": "NovAtel GNSS Data Reception Firmware for TI ARM Processor",
-      "authors": "Seung Ho Baeg, Hyeon Jun Lim",
+      "authors": "Seungho Baeg, Hyeon Jun Lim",
       "id": "C-2020-052144",
       "date": "Dec 2020"
     },
     {
       "title": "Range Data Acquisition Firmware for DSP Processor",
-      "authors": "Seung Ho Baeg, Hyeon Jun Lim",
+      "authors": "Seungho Baeg, Hyeon Jun Lim",
       "id": "C-2020-052143",
       "date": "Dec 2020"
     },
     {
       "title": "PRU Firmware for Motor Speed Control and Rotation Angle Detection on TI DSP",
-      "authors": "Seung Ho Baeg, Hyeon Jun Lim",
+      "authors": "Seungho Baeg, Hyeon Jun Lim",
       "id": "C-2020-052142",
       "date": "Dec 2020"
     },
     {
       "title": "CAN and Serial Communication API Driver for TI DSP",
-      "authors": "Seung Ho Baeg, Hyeon Jun Lim",
+      "authors": "Seungho Baeg, Hyeon Jun Lim",
       "id": "C-2020-052141",
       "date": "Dec 2020"
     },
     {
       "title": "Epson IMU Data Reception Firmware for PRU Processor",
-      "authors": "Seung Ho Baeg, Hyeon Jun Lim",
+      "authors": "Seungho Baeg, Hyeon Jun Lim",
       "id": "C-2020-052140",
       "date": "Dec 2020"
     }
