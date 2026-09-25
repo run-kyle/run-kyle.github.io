@@ -88,6 +88,15 @@
     \end{tabular*}\vspace{-5pt}
 }
 
+% One-line entries with a right-aligned date, for awards, talks, teaching
+% and service.
+\newcommand{\resumeLine}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.76\textwidth}@{\extracolsep{\fill}}r@{}}
+      \small #1 & \textit{\small #2}
+    \end{tabular*}\vspace{-5pt}
+}
+
 \renewcommand{\labelitemii}{$\circ$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
@@ -115,7 +124,8 @@
     \resumeItem{My goal is to develop scalable reinforcement learning methods and frameworks for
       real-world autonomous systems, closing the gap between learning in simulation and reliable
       operation. My interests span sim-to-real transfer, closed-loop evaluation, learning from logged
-      operational data, end-to-end planning, and LiDAR-based perception and 3D reconstruction.}
+      operational data, end-to-end planning, and LiDAR-based perception and 3D reconstruction. My
+      theoretical background is in T-S fuzzy-based robust control and state estimation.}
   \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
@@ -134,21 +144,6 @@
       \resumeItemListStart
         \resumeItem{National Science and Engineering Scholarship, Government of South Korea}
       \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-%-----------SUMMARY-----------------
-\section{Professional Experience Summary}
-  \resumeSubHeadingListStart
-    \resumeItem{Senior Research Engineer with 7+ years of experience in robotics and autonomous driving,
-      specializing in Reinforcement Learning (RL), Transformer-based End-to-End (E2E) planning, and
-      high-reliability decision-making systems. Experienced in architecting closed-loop simulation
-      environments, developing LiDAR-based perception and 3D reconstruction systems, and integrating
-      real-vehicle software for autonomous driving platforms. Built and managed large-scale
-      autonomous-driving datasets exceeding 1M labeled objects, and designed LiDAR simulation frameworks
-      supporting sensor-technology development, HD mapping, and high-fidelity 3D scanning. Strong
-      theoretical foundation in T-S fuzzy-based robust control, complemented by hands-on experience
-      delivering scalable, safety-critical algorithms and infrastructure across both research and
-      industrial environments.}
   \resumeSubHeadingListEnd
 
 %-----------EMPLOYMENT-----------------
@@ -225,6 +220,8 @@
   \resumeSubHeadingListEnd
 
 \input{research}
+
+\input{academic}
 
 %-------------------------------------------
 \end{document}

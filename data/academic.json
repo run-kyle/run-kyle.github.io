@@ -1,0 +1,121 @@
+{
+  "awards": [
+    {
+      "title": "Best Paper Award, KIIS Autumn Conference",
+      "org": "Korean Institute of Intelligent Systems",
+      "date": "2016"
+    },
+    {
+      "title": "BK21 Plus Scholarship",
+      "org": "National Research Foundation of Korea (NRF)",
+      "date": "2016 - 2018"
+    },
+    {
+      "title": "National Science and Engineering Scholarship",
+      "org": "Government of South Korea",
+      "date": "2012 - 2016"
+    }
+  ],
+  "talks": [
+    {
+      "title": "State Estimation Using the Sampled-data Fuzzy Observer and Its Application to the AHRS",
+      "venue": "Invited talk, Korea Maritime and Ocean University",
+      "date": "Feb 2020"
+    }
+  ],
+  "teaching": [
+    {
+      "title": "Technical Instructor — Real-time LiDAR-to-Vehicle Calibration and Evaluation Methodologies",
+      "org": "Hyundai Motor Group",
+      "period": "Nov 2023 – May 2024"
+    },
+    {
+      "title": "Technical Instructor — Research and Implementation of LiDAR Calibration Technology",
+      "org": "Hyundai Motor Group",
+      "period": "May 2023 – Oct 2023"
+    },
+    {
+      "title": "Teaching Assistant — Control Engineering",
+      "org": "Yonsei University",
+      "period": "Fall 2016"
+    },
+    {
+      "title": "Teaching Assistant — EE Experiments: Fundamentals",
+      "org": "Yonsei University",
+      "period": "Spring 2016"
+    },
+    {
+      "title": "Teaching Assistant — Data Structures and Algorithms",
+      "org": "Yonsei University",
+      "period": "Spring 2016"
+    }
+  ],
+  "service": [
+    {
+      "venue": "Journal of Electrical Engineering & Technology (JEET)",
+      "note": "IF 1.6",
+      "date": "Dec 2025"
+    },
+    {
+      "venue": "Journal of Korean Institute of Intelligent Systems (KIIS)",
+      "note": "KCI IF 0.47",
+      "date": "Mar 2024"
+    },
+    {
+      "venue": "Journal of Institute of Control, Robotics and Systems (ICROS)",
+      "note": "KCI IF 0.84",
+      "date": "Aug 2023"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        "Python",
+        "C++",
+        "MATLAB"
+      ]
+    },
+    {
+      "group": "Deep Learning & AI",
+      "items": [
+        "PyTorch",
+        "TensorFlow"
+      ]
+    },
+    {
+      "group": "Robotics & Perception",
+      "items": [
+        "ROS",
+        "PCL",
+        "OpenCV"
+      ]
+    },
+    {
+      "group": "Control & Simulation",
+      "items": [
+        "MATLAB/Simulink",
+        "NVIDIA IsaacSim",
+        "Applied Intuition"
+      ]
+    },
+    {
+      "group": "Embedded Platforms",
+      "items": [
+        "NVIDIA",
+        "Qualcomm",
+        "TI"
+      ]
+    },
+    {
+      "group": "Sensors",
+      "items": [
+        "128-ch LiDAR",
+        "2D/3D Scanning LiDAR",
+        "Radar",
+        "GNSS/IMU",
+        "Multi-view / AVM Camera"
+      ]
+    }
+  ]
+}
