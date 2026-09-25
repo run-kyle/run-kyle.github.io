@@ -15,3 +15,6 @@ node_modules/
 /reference.txt
 # Raw media extracted from presentation decks — web-ready copies go under assets/.
 media/
+
+# A separate repo that lives alongside this one; not part of the site.
+latex_resume_template_kor/
