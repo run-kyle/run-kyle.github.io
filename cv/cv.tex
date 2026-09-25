@@ -94,11 +94,13 @@
 
 % One-line entries with a right-aligned date, for awards, talks, teaching
 % and service.
+% parbox rather than a tabular row: a p{} column carries a strut that opens
+% up the gap between single-line entries. [t] keeps the date on the first
+% line when the left side wraps.
 \newcommand{\resumeLine}[2]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.76\textwidth}@{\extracolsep{\fill}}r@{}}
-      \small #1 & \textit{\small #2}
-    \end{tabular*}\vspace{-5pt}
+  \item\small{
+    {\parbox[t]{0.72\textwidth}{#1}\hfill \textit{\mbox{#2}} \vspace{-2pt}}
+  }
 }
 
 \renewcommand{\labelitemii}{$\circ$}
