@@ -1,0 +1,283 @@
+%-------------------------
+% Resume in Latex
+% Original Author : Sourabh Bajaj
+% Adaptation : Hyunggi Chang
+% License : MIT  (see LICENSE)
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+% fullpage is not in every TeX install; these are the 1in margins it sets.
+\setlength{\oddsidemargin}{0pt}
+\setlength{\evensidemargin}{0pt}
+\setlength{\topmargin}{0pt}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2in}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-2in}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSummary}[1]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      #1
+    \end{tabular*}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeEmployment}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+% Project titles are long; the left column wraps so the date cannot be pushed
+% off the right margin.
+\newcommand{\resumeProject}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.72\textwidth}@{\extracolsep{\fill}}r@{}}
+      \textbf{#1} & \textit{\small #2}
+    \end{tabular*}\vspace{-5pt}
+}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeEmploymentListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeEmploymentListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Lim, Hyeon Jun} & Seoul, South Korea \\
+  \href{https://run-kyle.github.io}{run-kyle.github.io} $|$
+  \href{https://scholar.google.com/citations?user=YRn_XIYAAAAJ}{Google Scholar} &
+  Email: \href{mailto:kyle13@yonsei.ac.kr}{kyle13@yonsei.ac.kr} \\
+  {} & Mobile: (+82) 10-2230-3765
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Yonsei University}{Seoul, South Korea}
+      {M.S. in Electrical and Electronic Engineering}{Feb. 2018}
+      \resumeItemListStart
+        \resumeItem{Thesis: ``State Estimation Using the Sampled-data Fuzzy Observer and Its Application to the AHRS''}
+        \resumeItem{BK21 Plus Scholarship, National Research Foundation of Korea (NRF)}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Yonsei University}{Seoul, South Korea}
+      {B.S. in Electrical and Electronic Engineering}{Feb. 2016}
+      \resumeItemListStart
+        \resumeItem{National Science and Engineering Scholarship, Government of South Korea}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------SUMMARY-----------------
+\section{Professional Experience Summary}
+  \resumeSubHeadingListStart
+    \resumeItem{Senior Research Engineer with 7+ years of experience in robotics and autonomous driving,
+      specializing in Reinforcement Learning (RL), Transformer-based End-to-End (E2E) planning, and
+      high-reliability decision-making systems. Experienced in architecting closed-loop simulation
+      environments, developing LiDAR-based perception and 3D reconstruction systems, and integrating
+      real-vehicle software for autonomous driving platforms. Built and managed large-scale
+      autonomous-driving datasets exceeding 1M labeled objects, and designed LiDAR simulation frameworks
+      supporting sensor-technology development, HD mapping, and high-fidelity 3D scanning. Strong
+      theoretical foundation in T-S fuzzy-based robust control, complemented by hands-on experience
+      delivering scalable, safety-critical algorithms and infrastructure across both research and
+      industrial environments.}
+  \resumeSubHeadingListEnd
+
+%-----------EMPLOYMENT-----------------
+\section{Employment}
+  \resumeEmploymentListStart
+    \resumeEmployment
+      {Hyundai Motor Company}{Seoul, South Korea}
+      {Senior Research Engineer, Autonomous Driving Development}{Jan. 2025 -- Present}
+    \resumeEmployment
+      {Hyundai Motor Company}{Seoul, South Korea}
+      {Research Engineer, Autonomous Driving Development}{Mar. 2022 -- Dec. 2024}
+    \resumeEmployment
+      {Korea Institute of Industrial Technology (KITECH)}{Ansan, South Korea}
+      {Researcher, Robotics R\&BD Group}{Jun. 2018 -- Jun. 2021}
+  \resumeEmploymentListEnd
+
+%-----------KEY PROJECTS-----------------
+\section{Key Projects}
+  \resumeSubHeadingListStart
+    \resumeProject
+      {Unified Closed-Loop Simulation Framework for Reinforcement Learning-Based Autonomous Driving}
+      {Aug. 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Architecting a high-fidelity closed-loop simulation stack across several environment
+          representations, from 3DGS photorealistic scenes and graphics-based simulation to object-level
+          box worlds, with rule-driven reward modeling and World-Model-powered synthetic data generation,
+          to enable reactive long-tail scenario evaluation and robust Sim-to-Real generalization.}
+        \resumeItem{Optimizing real-world driving policies by integrating online and offline RL paradigms
+          and designing specialized neural layers for transfer.}
+      \resumeItemListEnd
+
+    \resumeProject
+      {End-to-End Autonomous Planning System}{Jul. 2024 -- Mar. 2026}
+      \resumeItemListStart
+        \resumeItem{Co-developed a Transformer-based autonomous-driving planner and led its embedded
+          deployment and real-vehicle validation, including the company's first on-vehicle run of such a
+          planner. Built a unified training and inference framework, architected closed-loop evaluation
+          and long-tail robustness analysis with high-fidelity synthetic data, and accelerated iteration
+          through custom real-time visualization and debugging tools used across diverse real-vehicle tests.}
+      \resumeItemListEnd
+
+    \resumeProject
+      {Lv.3 and Lv.4 Autonomous Driving Perception Systems (HDP \& Robo-Services)}{Mar. 2022 -- Jun. 2024}
+      \resumeItemListStart
+        \resumeItem{Shaped the software architecture of the company's LiDAR perception stack and led
+          sensor evaluation and point cloud pre-processing, establishing the first systematic
+          sensor-evaluation framework and benchmarking 10+ vendors. Contributed core parsing, filtering,
+          fault-detection, clustering, localization, and calibration technologies, including online
+          optical-flow calibration, with CUDA-optimized embedded performance, validated across Lv.3 and
+          Lv.4 platforms.}
+      \resumeItemListEnd
+
+    \resumeProject
+      {Standardized Open Database and Evaluation System for Intelligent Vehicle Perception}
+      {Jun. 2018 -- May 2020}
+      \resumeItemListStart
+        \resumeItem{Built the Korea Dataset for Autonomous Solution (KODAS), the country's first
+          large-scale, high-precision LiDAR dataset for autonomous driving, constructing a million-label
+          128-channel corpus with automated annotation (90\% time reduction), long-tail extreme-condition
+          captures, cm-level HD mapping with custom tooling (LAS converter, point-wise sync, SOR
+          filtering, rolling-shutter correction), and a full-stack calibrated sensor-logging platform.}
+        \resumeItem{Advanced 3D perception fidelity and validation rigor by boosting Z-axis accuracy from
+          10 cm to 1 cm via global ground-fitting, performing comprehensive multi-sensor calibration, and
+          benchmarking SOTA deep-learning models to confirm real-world applicability and robustness of
+          the dataset.}
+      \resumeItemListEnd
+
+    \resumeProject
+      {River Management Technology Using a Drone-Based Platform for River Investigation}
+      {Jun. 2019 -- Jun. 2021}
+      \resumeItemListStart
+        \resumeItem{Developed a high-fidelity LiDAR simulation and analysis framework to derive optimal
+          hardware specifications, validate dual-wavelength bathymetric sensing performance, and translate
+          point-cloud-based error modeling into actionable embedded-system requirements for high-accuracy
+          river and subsurface mapping.}
+      \resumeItemListEnd
+
+    \resumeProject
+      {3D Vehicle Shape Generation System for Automated Car Wash}{Jan. 2019 -- Dec. 2020}
+      \resumeItemListStart
+        \resumeItem{Developed a fast, sub-2 cm-accuracy 3D vehicle-profiling system for unmanned car-wash
+          automation, integrating custom multi-LiDAR sensing, fused point-cloud reconstruction, and
+          real-time TI-embedded processing to ensure reliable geometry extraction and collision-free
+          operation.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Publications}
+  \resumeSubHeadingListStart
+    \resumeItem{\textit{Journal Articles}}
+    \resumeItem{Younghun Byeon, Eunju Kim, \textbf{Hyeon Jun Lim}, Han Sol Kim, ``Development of a Faster R-CNN-based Marine Debris Detection Model for an Embedded System,'' Journal of Institute of Control, Robotics and Systems, 27(12), 1038--1043 (KCI), 2021.}
+    \resumeItem{Younghun Byeon, Minjae Kang, \textbf{Hyeon Jun Lim}, Han Sol Kim, ``Development of a Three-Dimensional Indoor Position Estimation Algorithm for a Drone Using Stereo Vision and YOLOv3,'' Journal of Institute of Control, Robotics and Systems, 27(11), 845--850 (KCI), 2021.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Young Hoon Joo, Jin Bae Park, ``A Relaxed Stabilization Condition for Discrete T-S Fuzzy Model under Imperfect Premise Matching,'' Journal of Korean Institute of Intelligent Systems, 27(1), 59--64 (KCI, IF 0.47), 2017.}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeItem{\textit{International Conferences}}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Jin Bae Park, Young Hoon Joo, ``Fuzzy Observer Design and Its Experimental Validation Using the Fuzzy Lyapunov Function,'' 17th International Conference on Control, Automation and Systems (ICCAS), Jeju, Korea, 2017.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Jin Bae Park, Young Hoon Joo, ``Fuzzy Lyapunov Function-based H$\infty$ Fuzzy Filter Design for Sampled-data Systems under Imperfect Premise Matching,'' SICE Annual Conference, Kanazawa, Japan, 2017.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Jin Bae Park, Young Hoon Joo, ``The Stabilization Condition of Continuous Affine Fuzzy Systems Under Imperfect Premise Matching,'' 16th International Conference on Control, Automation and Systems (ICCAS), Gyeongju, Korea, 2016.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Jin Bae Park, Young Hoon Joo, ``The Fuzzy Lyapunov Function-based Relaxed Stabilization of Output-feedback Fuzzy Control Systems Under Imperfect Premise Matching,'' International Conference on Fuzzy Theory and Its Applications (iFuzzy), Taichung, Taiwan, 2016.}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeItem{\textit{Domestic Conferences}}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Seungho Baeg, ``An Improvement Method for Global Mapping of Point Cloud Data Through the Statistical Outlier Removal,'' 16th Korea Robotics Society Annual Conference (KRoC), Pyeongchang, Korea, 2021.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Seungho Baeg, ``A Time Compensation Method for a Scanning LiDAR Sensor via Hermite Interpolation,'' KIIS Autumn Conference, 30(2), 2020.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Seungho Baeg, ``A Calibration Method for a 2D LiDAR Sensor and a Linear Encoder System Using Dihedral Angle,'' KIEE Conference on Information and Control Systems (CICS), Jeju, Korea, 2020.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Seungho Baeg, Jae-Hak Kim, Jae-Sung Jeong, Changsung Kim, ``Analysis of Design Parameters and Performance Simulation for a Bathymetric LiDAR Sensor,'' KSCE Convention, Drone Platform-based River Survey Special Session, 2020.}
+    \resumeItem{Seungho Baeg, Beomjin Hong, Suhyun Na, \textbf{Hyeon Jun Lim}, ``Korea Dataset for Autonomous Solution and the Acquisition System,'' KSAE Autumn Conference, 2018.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Jin Bae Park, Young Hoon Joo, ``Fuzzy Output-feedback Controller Design for T-S Fuzzy Models based on Improved Fuzzy Lyapunov Functions under Imperfect Premise Matching,'' ICROS Annual Conference, Sokcho, Korea, 2017.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Jin Bae Park, Young Hoon Joo, ``Output-feedback Controller Design for T-S Fuzzy Models based on Fuzzy Lyapunov Functions: Guaranteed-cost Approach,'' KIIS Spring Conference, 27(1), 2017.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Jin Bae Park, Taek Gyu Song, Young Hoon Joo, ``The Relaxed Stabilization Condition for the Affine T-S Fuzzy Systems via Improved Fuzzy Lyapunov Functions: Guaranteed Cost Approach,'' KIEE Summer Conference, 48th, 2017.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Chang-Gil Lee, Jin Bae Park, Young Hoon Joo, ``Fuzzy Output-feedback Control Design for T-S Fuzzy Models under Imperfect Premise Matching,'' KIEE Conference on Information and Control Systems (CICS), 2016.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Han Sol Kim, Jin Bae Park, Myoung Hwan Tak, Young Hoon Joo, ``Stabilization for the T-S Fuzzy Systems Using the Line-integral Fuzzy Lyapunov Function,'' KIIS Spring Conference, 26(1), 2016.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Young Hoon Joo, Jin Bae Park, ``A Relaxed Stabilization Condition for Discrete T-S Fuzzy Model under Imperfect Premise Matching,'' KIIS Autumn Conference (Best Paper Award; later extended into the 2017 JKIIS article), 2016.}
+  \resumeSubHeadingListEnd
+
+\section{Patents}
+  \resumeSubHeadingListStart
+    \resumeItem{``Apparatus and Method for Processing Trajectory Data,'' KR 10-2026-0139322 (Application), Filed Jul 28, 2026.}
+    \resumeItem{``System For Processing Data Required For Object Detection Based On Artificial Intelligence and Multiple Autonomous Driving Sensors and Method Implementing The Same,'' KR 10-2025-0090242 (Application), Filed Jul 4, 2025. Also filed: US 19/415,494 $\cdot$ CN 202511840140.4.}
+    \resumeItem{``Apparatus For Controlling Vehicle and Method Thereof,'' KR 10-2025-0044855 (Application), Filed Apr 7, 2025. Also filed: US 19/391,095 $\cdot$ DE 10 2025 146 420.0 $\cdot$ CN 202511797806.2.}
+    \resumeItem{``System and Method For Calibrating 3D Sensor Coordinate Based On Scene Flow Network,'' KR 10-2025-0042966 (Application), Filed Apr 2, 2025. Also filed: US 19/406,040 $\cdot$ CN 202511849897.X.}
+    \resumeItem{``System and Method For Adaptive Calibration For Autonomous Driving,'' KR 10-2025-0042965 (Application), Filed Apr 2, 2025. Also filed: US 19/409,994 $\cdot$ CN 202511849891.2.}
+    \resumeItem{``3D Vehicle Shape Data Acquisition Method and System for Automated Car Wash Equipment,'' KR 10-2504548 (Registered), Filed Dec 7, 2020 $\cdot$ Registered Feb 23, 2023.}
+    \resumeItem{``3D Vehicle Shape Data Acquisition Method and System for Automated Car Wash Equipment, Rotating LiDAR Configuration,'' KR 10-2504547 (Registered), Filed Dec 7, 2020 $\cdot$ Registered Feb 23, 2023.}
+  \resumeSubHeadingListEnd
+
+\section{Software Copyrights}
+  \resumeSubHeadingListStart
+    \resumeItem{\textbf{Hyeon Jun Lim}, Seung Ho Baeg, ``Laser Beam Characteristics Evaluation Program,'' Korea Copyright Commission, C-2021-008734, Feb 2021.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Seung Ho Baeg, ``LiDAR Sensor Data Viewer Program,'' Korea Copyright Commission, C-2020-052146, Dec 2020.}
+    \resumeItem{\textbf{Hyeon Jun Lim}, Seung Ho Baeg, ``LAS File Conversion Program,'' Korea Copyright Commission, C-2020-052137, Dec 2020.}
+    \resumeItem{Seung Ho Baeg, \textbf{Hyeon Jun Lim}, ``NovAtel GNSS Data Reception Firmware for TI ARM Processor,'' Korea Copyright Commission, C-2020-052144, Dec 2020.}
+    \resumeItem{Seung Ho Baeg, \textbf{Hyeon Jun Lim}, ``Range Data Acquisition Firmware for DSP Processor,'' Korea Copyright Commission, C-2020-052143, Dec 2020.}
+    \resumeItem{Seung Ho Baeg, \textbf{Hyeon Jun Lim}, ``PRU Firmware for Motor Speed Control and Rotation Angle Detection on TI DSP,'' Korea Copyright Commission, C-2020-052142, Dec 2020.}
+    \resumeItem{Seung Ho Baeg, \textbf{Hyeon Jun Lim}, ``CAN and Serial Communication API Driver for TI DSP,'' Korea Copyright Commission, C-2020-052141, Dec 2020.}
+    \resumeItem{Seung Ho Baeg, \textbf{Hyeon Jun Lim}, ``Epson IMU Data Reception Firmware for PRU Processor,'' Korea Copyright Commission, C-2020-052140, Dec 2020.}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
