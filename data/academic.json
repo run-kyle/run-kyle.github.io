@@ -53,17 +53,14 @@
   "service": [
     {
       "venue": "Journal of Electrical Engineering & Technology (JEET)",
-      "note": "IF 1.6",
       "date": "Dec 2025"
     },
     {
       "venue": "Journal of Korean Institute of Intelligent Systems (KIIS)",
-      "note": "KCI IF 0.47",
       "date": "Mar 2024"
     },
     {
       "venue": "Journal of Institute of Control, Robotics and Systems (ICROS)",
-      "note": "KCI IF 0.84",
       "date": "Aug 2023"
     }
   ],
@@ -95,8 +92,7 @@
       "group": "Control & Simulation",
       "items": [
         "MATLAB/Simulink",
-        "AlpaSim",
-        "AlpaGym",
+        "NVIDIA AlpaSim, AlpaGym",
         "Applied Intuition"
       ]
     },

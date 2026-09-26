@@ -151,10 +151,10 @@
   ],
   "projects": [
     {
-      "title": "Unified Closed-Loop Simulation Framework for RL-Based Autonomous Driving",
+      "title": "Unified Closed-Loop Simulation Framework for Reinforcement Learning-Based Autonomous Driving",
       "period": "Aug 2025 – Present",
       "org": "Hyundai Motor Company",
-      "summary": "Building a closed-loop RL training framework across several environment representations, from 3DGS photorealistic scenes and graphics-based simulation to object-level box worlds, with rule-driven reward modeling and World-Model synthetic data.",
+      "summary": "Building a closed-loop RL training framework across several environment representations, from 3DGS photorealistic scenes and graphics-based simulation to object-level abstractions, with rule-driven reward modeling and World-Model synthetic data.",
       "tags": [
         "Reinforcement Learning",
         "3DGS",
@@ -222,7 +222,7 @@
       "title": "Vision-IMU Integrated Indoor Navigation System for the Visually Impaired",
       "period": "Oct 2016 – Sep 2017",
       "org": "Yonsei University",
-      "summary": "Fused CCTV-based machine learning positioning with smartphone IMU dead-reckoning to keep tracking users through camera blind spots, and built the guidance pipeline around it with a control server, a mobile app, and A*-based safety-aware routing.",
+      "summary": "Developed an indoor positioning system combining marker-based visual recognition with smartphone IMU dead-reckoning, and built the guidance pipeline around it with a control server, a mobile app, and A*-based safety-aware routing.",
       "tags": [
         "Sensor Fusion",
         "Machine Learning",
