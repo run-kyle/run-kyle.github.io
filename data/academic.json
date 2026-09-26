@@ -95,7 +95,8 @@
       "group": "Control & Simulation",
       "items": [
         "MATLAB/Simulink",
-        "NVIDIA IsaacSim",
+        "AlpaSim",
+        "AlpaGym",
         "Applied Intuition"
       ]
     },
