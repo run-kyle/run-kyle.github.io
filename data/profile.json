@@ -154,7 +154,7 @@
       "title": "Unified Closed-Loop Simulation Framework for Reinforcement Learning-Based Autonomous Driving",
       "period": "Aug 2025 – Present",
       "org": "Hyundai Motor Company",
-      "summary": "Building a closed-loop RL training framework across several environment representations, from 3DGS photorealistic scenes and graphics-based simulation to object-level abstractions, with rule-driven reward modeling and World-Model synthetic data.",
+      "summary": "Building a closed-loop RL training framework that supports multiple environment representations (3DGS scenes, graphics-based simulation, and object-level abstractions), along with scalable RL algorithms across synthetic, reconstructed, and real-world driving data.",
       "tags": [
         "Reinforcement Learning",
         "3DGS",
@@ -166,7 +166,7 @@
       "title": "End-to-End Autonomous Planning System",
       "period": "Jul 2024 – Mar 2026",
       "org": "Hyundai Motor Company",
-      "summary": "Co-developed a Transformer-based end-to-end planner and led its embedded deployment and real-vehicle validation, including the company's first on-vehicle run of such a planner.",
+      "summary": "Co-developed a transformer-based end-to-end planner, built its training and inference framework, and led its embedded deployment and validation on a real vehicle.",
       "tags": [
         "Transformer",
         "E2E Planning",
@@ -177,7 +177,7 @@
       "title": "Lv.3 / Lv.4 Autonomous Driving Perception Systems (HDP & Robo-Services)",
       "period": "Mar 2022 – Jun 2024",
       "org": "Hyundai Motor Company",
-      "summary": "Shaped the software architecture of the LiDAR perception stack for Lv.3 and Lv.4 platforms, spanning clustering, localization, and online calibration, and led sensor evaluation and point cloud pre-processing.",
+      "summary": "Designed the software architecture of the LiDAR perception stack for Lv.3 and Lv.4 platforms, spanning clustering, localization, and online calibration, and led sensor evaluation and the point cloud pre-processing pipeline, CUDA-optimized for the embedded target.",
       "tags": [
         "LiDAR Perception",
         "CUDA",
@@ -199,7 +199,7 @@
       "title": "3D Vehicle Shape Generation System for Automated Car Wash",
       "period": "Jan 2019 – Dec 2020",
       "org": "KITECH",
-      "summary": "Developed a sub-2 cm-accuracy multi-LiDAR vehicle-profiling system for unmanned car-wash automation, running in real time on TI embedded hardware.",
+      "summary": "Developed a multi-LiDAR vehicle-profiling system with sub-2 cm accuracy for unmanned car-wash automation, running in real time on TI embedded hardware.",
       "tags": [
         "Multi-LiDAR",
         "Point Cloud",
@@ -210,7 +210,7 @@
       "title": "Standardized Open Database and Evaluation System for Intelligent Vehicle Perception",
       "period": "Jun 2018 – May 2020",
       "org": "KITECH",
-      "summary": "Built the Korea Dataset for Autonomous Solution (KODAS), the country's first autonomous driving corpus captured with 128-channel LiDAR, with over a million labeled objects, automated annotation, and cm-level HD mapping.",
+      "summary": "Built the Korea Dataset for Autonomous Solution (KODAS), the first large-scale autonomous driving dataset in Korea, with over a million labeled objects captured by 128-channel LiDAR, and developed its cm-level HD mapping, point cloud processing toolchain, and multi-sensor calibration.",
       "tags": [
         "Dataset",
         "128-ch LiDAR",
@@ -233,8 +233,8 @@
   ],
   "demos": [
     {
-      "title": "Built the RL framework behind Atria AI",
-      "project": "Unified Closed-Loop Simulation Framework for RL-Based Autonomous Driving · Hyundai Motor Company, 2025–2026 · video by Hyundai Motor Group",
+      "title": "Built the RL framework for Atria AI",
+      "project": "Unified Closed-Loop Simulation Framework for Reinforcement Learning-Based Autonomous Driving · Hyundai Motor Company, 2025–2026 · video by Hyundai Motor Group",
       "youtube": "-7BEzmdrlcU"
     },
     {
