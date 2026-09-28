@@ -17,14 +17,13 @@
     "bio": [
       "I build a <strong>closed-loop reinforcement learning framework for autonomous driving</strong>, as a Senior Research Engineer at Hyundai Motor Company.",
       "I have also developed an <strong>end-to-end autonomous driving system</strong> and ran it on a real vehicle, built a <strong>LiDAR perception system for Lv.3 and Lv.4 autonomous driving</strong>, and constructed <strong>KODAS, Korea's first large-scale autonomous driving dataset</strong>.",
-      "My goal is to develop <strong>scalable reinforcement learning methods and frameworks for real-world autonomous systems</strong>, closing the gap between learning in simulation and reliable operation."
+      "My goal is to develop <strong>scalable reinforcement learning methods for complex tasks</strong>, reducing the data and effort needed to learn effective policies. I am interested in using simulation and learned world models to generate useful experience, and in improving how policies reuse available data through off-policy learning."
     ],
     "interests": [
-      "Reinforcement Learning for Physical Systems",
-      "End-to-End Autonomous Planning",
-      "Closed-Loop Simulation & Sim-to-Real",
-      "LiDAR Perception & 3D Reconstruction",
-      "Robust Control & State Estimation"
+      "Scalable Reinforcement Learning",
+      "World Models",
+      "Off-Policy & Offline RL",
+      "Simulation & Sim-to-Real"
     ],
     "links": [
       {
