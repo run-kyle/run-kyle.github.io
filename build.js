@@ -18,6 +18,11 @@ const crypto = require('crypto');
 const stamp = (rel) =>
   `${rel}?v=${crypto.createHash('md5').update(fs.readFileSync(path.join(ROOT, rel))).digest('hex').slice(0, 8)}`;
 
+// Local files also get the hash, so a freshly built CV cannot sit behind a copy the
+// browser cached from an earlier visit. Remote and mailto links are left alone.
+const localUrl = (u) =>
+  u && !/^(https?:|mailto:|#)/.test(u) && fs.existsSync(path.join(ROOT, u)) ? stamp(u) : u;
+
 const ROOT = __dirname;
 const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'profile.json'), 'utf8'));
 
@@ -91,8 +96,8 @@ ${extraMeta}
 function nav(page) {
   const links =
     page === 'home'
-      ? `<a href="#demos">Demos</a><a href="#projects">Projects</a><a href="publications.html">Publications</a><a href="${esc(data.profile.cv)}">CV</a>`
-      : `<a href="index.html">Home</a><a href="#publications">Papers</a><a href="#patents">Patents</a><a href="${esc(data.profile.cv)}">CV</a>`;
+      ? `<a href="#demos">Demos</a><a href="#projects">Projects</a><a href="publications.html">Publications</a><a href="${esc(localUrl(data.profile.cv))}">CV</a>`
+      : `<a href="index.html">Home</a><a href="#publications">Papers</a><a href="#patents">Patents</a><a href="${esc(localUrl(data.profile.cv))}">CV</a>`;
   return `
 <nav class="nav">
   <div class="nav-inner">
@@ -152,7 +157,7 @@ function buildHome() {
     <div class="links">
       ${(p.links || [])
         .filter((l) => l.url && !/REPLACE_ME/.test(l.url))
-        .map((l) => `<a class="link-chip" href="${esc(l.url)}"${/^https?:/.test(l.url) ? ' target="_blank" rel="noopener"' : ''}>${icon(l.icon)}${esc(l.label)}</a>`)
+        .map((l) => `<a class="link-chip" href="${esc(localUrl(l.url))}"${/^https?:/.test(l.url) ? ' target="_blank" rel="noopener"' : ''}>${icon(l.icon)}${esc(l.label)}</a>`)
         .join('\n      ')}
     </div>
   </div>
@@ -293,7 +298,7 @@ function buildHome() {
     'More',
     `<div class="row"><div class="row-title"><a href="publications.html">Publications, patents &amp; software copyrights →</a></div>
      <div class="row-meta">${(data.publications || []).reduce((a, g) => a + g.items.length, 0)} papers · ${(data.patents || []).length} patents · ${(data.software_copyrights || []).length} software copyrights</div></div>
-     <div class="row"><div class="row-title"><a href="${esc(p.cv)}">Full CV (PDF) →</a></div><div class="row-meta">Complete record of projects, publications, and activities</div></div>`
+     <div class="row"><div class="row-title"><a href="${esc(localUrl(p.cv))}">Full CV (PDF) →</a></div><div class="row-meta">Complete record of projects, publications, and activities</div></div>`
   );
 
   return [
@@ -442,7 +447,7 @@ function buildPublications() {
     nav('publications'),
     `<header class="hero wrap" style="display:block;padding-bottom:0">
       <h1 class="hero-name">Publications &amp; Patents</h1>
-      <div class="hero-meta">Full record also available in the <a href="${esc(data.profile.cv)}">CV (PDF)</a>.</div>
+      <div class="hero-meta">Full record also available in the <a href="${esc(localUrl(data.profile.cv))}">CV (PDF)</a>.</div>
     </header>`,
     '<main class="wrap">',
     pubs,
