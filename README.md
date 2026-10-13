@@ -10,7 +10,8 @@ publications.html     ← 자동 생성됨. 직접 수정하지 마세요.
 assets/css/style.css  ← 디자인
 assets/js/main.js     ← 다크모드 토글 등
 assets/img/profile.jpg← 프로필 사진 (이 이름으로 넣으면 자동 반영)
-assets/files/cv.pdf   ← CV PDF
+assets/files/cv.pdf   ← CV PDF (비공개 저장소 run-kyle/cv 에서 빌드되어 복사됨)
+data/academic.json    ← CV 전용 항목(수상·강연·강의·학회활동·기술스택). 사이트에는 안 나옵니다
 ```
 
 ## 내용 수정하기
@@ -42,7 +43,7 @@ git add -A && git commit -m "update profile" && git push
 | 프로젝트 | `projects` 배열 (전부 노출됨). 본문은 `summary` 한 줄만 — 자세한 내용은 CV 에 있습니다 |
 | 데모 영상/사진 | `demos` 배열에 추가 (아래 참고) |
 | Scholar/LinkedIn 링크 | `profile.links` 의 `REPLACE_ME` 를 실제 URL 로 교체 |
-| CV 갱신 | `assets/files/cv.pdf` 덮어쓰기 |
+| CV 갱신 | 비공개 저장소 [`run-kyle/cv`](https://github.com/run-kyle/cv) 에서 `./build.sh` 실행 — `assets/files/cv.pdf` 가 자동으로 갱신됩니다 |
 
 `bio`, `news[].text`, `projects[].summary`, `demos[].description` 은 `<strong>`, `<em>`, `<a>` 같은 간단한 HTML 태그를 쓸 수 있습니다.
 그 외 필드는 자동으로 이스케이프되므로 태그를 넣어도 글자 그대로 표시됩니다.
